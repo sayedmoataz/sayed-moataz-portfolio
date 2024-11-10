@@ -1,0 +1,141 @@
+{
+    "categories": {
+        "keys": [
+            "All",
+            "Mobile Development",
+            "UI / UX Design"
+        ],
+        "All": {
+            "name": "All",
+            "projects": [
+                "Privilege",
+                "Zefaaf",
+                "Hadayek-Hof",
+                "Onco",
+                "Clinco",
+                "Elagak"
+            ]
+        },
+        "Mobile Development": {
+            "name": "Mobile Development",
+            "projects": [
+                "Privilege",
+                "Zefaaf",
+                "Hadayek-Hof",
+                "Onco",
+                "Clinco"
+            ]
+        },
+        "UI / UX Design": {
+            "name": "UI / UX Design",
+            "projects": [
+                "Elagak"
+            ]
+        }
+    },
+    "projects": {
+        "Privilege": {
+            "title": "Privilege App",
+            "associated": {
+                "name": "Privilege App",
+                "link": "https://apps.apple.com/us/app/privilege/id1632963488"
+            },
+            "start_date": "May 2023",
+            "end_date": "July 2022",
+            "thumbnail": "https://play-lh.googleusercontent.com/c4skQv3-uNDkdnFq-Ar9UEJTJ9U9VcJ1BM25sARn2J59jR7TczHyu6mRKWeziSVIOAaj=w240-h480-rw",
+            "link": "https://play.google.com/store/apps/details?id=com.privilegeapps.privilege",
+            "description": "Developed a comprehensive course management app with tools for user engagement and course interaction. Currently working on a UI redesign to enhance usability and visual appeal.",
+            "skills": [
+                "Flutter ",
+                "UI/UX Design",
+                "Version Controller "
+            ],
+            "action": "Live Project"
+        },
+        "Zefaaf": {
+            "title": "Zefaaf Platform",
+            "associated": {
+                "name": "Zefaaf Platform",
+                "link": "https://apps.apple.com/us/app/%D9%85%D9%86%D8%B5%D8%A9-%D8%B2%D9%81%D8%A7%D9%81/id1550582488"
+            },
+            "start_date": "Sep 2024",
+            "end_date": "Nov 2024",
+            "thumbnail": "https://play-lh.googleusercontent.com/383ALQSAnqKnP64regAi0SeHyRqpR8fZ4-ZCW1xPiH2oJTi-QC257t8Yxe99z4HJ1Q=w240-h480-rw",
+            "link": "https://play.google.com/store/apps/details?id=com.dreamsoft.zefaaf",
+            "description": "Islamic marriage services platform where responsibilities include bug fixing, technical troubleshooting, code refactoring, and implementing new UI/UX designs for a better user experience.",
+            "skills": [
+                "Flutter",
+                "API Integration",
+                "Code Refactoring",
+                "Swagger"
+            ],
+            "action": "Live Project"
+        },
+        "Elagak": {
+            "title": "Elagak Project",
+            "associated": {
+                "name": "Elagak Project",
+                "link": ""
+            },
+            "start_date": "Sep 2022",
+            "end_date": "Oct 2022",
+            "thumbnail": "https://media.licdn.com/dms/image/v2/D562DAQFv46czCXAPDg/profile-treasury-image-shrink_1920_1920/profile-treasury-image-shrink_1920_1920/0/1698332177514?e=1731855600&v=beta&t=kklY9bPtnMWGQgSaFXD_04dSErsKW8R7JSgVHb9fz8A",
+            "link": "https://xd.adobe.com/view/a60dcd99-a4cf-423c-84eb-30ffe1121fc3-f35e/?fbclid=IwY2xjawEvG59leHRuA2FlbQIxMAABHUhk1bpDMmNxGiKoxL3hDDqw6OdUjdxdFbZAg-4hxnKEUb5YtiA37Ix8Tw_aem_xD-bjhxMZeubY_BrMBnbvA",
+            "description": "A healthcare solution comprising three applications: User, Pharmacy, and Delivery, along with an Admin Dashboard.",
+            "skills": [
+                "Adobe Xd"
+            ],
+            "action": "Adobe Xd"
+        },
+        "Hadayek-Hof": {
+            "title": "Hadayek-Hof App",
+            "associated": {
+                "name": "Hadayek-Hof App",
+                "link": ""
+            },
+            "start_date": "Aug 2022",
+            "end_date": "Sep 2022",
+            "thumbnail": "https://media.licdn.com/dms/image/v2/D562DAQGR7zzwuAUc_w/profile-treasury-image-shrink_1920_1920/profile-treasury-image-shrink_1920_1920/0/1698331362949?e=1731855600&v=beta&t=XOGuDnEFMeX73X5wc5aKS7PmpQ-0DMZ43ldHUgShxkE",
+            "link": "https://appgallery.huawei.com/#/app/C106661249",
+            "description": "A services app that includes secure backend communication using encryption and allows for sharing posts through Firebase Dynamic Links.",
+            "skills": [
+                "Firebase",
+                "Encryption"
+            ],
+            "action": "Live Project"
+        },
+        "Onco": {
+            "title": "Onco App",
+            "associated": {
+                "name": "Onco App",
+                "link": "https://apps.apple.com/eg/app/onco-help/id6443458019"
+            },
+            "start_date": "June 2022",
+            "end_date": "Nov 2024",
+            "thumbnail": "https://play-lh.googleusercontent.com/UYvT9STUzyw7z77Ah06TPaJ6mWub8E-IfuY1xzDgA8pOjQrBkiIbKJSNNi7RVi2fZhUz=w240-h480-rw",
+            "link": "https://play.google.com/store/apps/details?id=com.oncoapp.oncohelp",
+            "description": "An application integrated with the Paymob payment gateway, with additional technical support responsibilities.",
+            "skills": [
+                "Payment Gateway Integration",
+                "Technical Support"
+            ],
+            "action": "Live Project"
+        },
+        "Clinco": {
+            "title": "Clinco App",
+            "associated": {
+                "name": "Clinco App",
+                "link": ""
+            },
+            "start_date": "Oct 2022",
+            "end_date": "Oct 2022",
+            "thumbnail": "",
+            "link": "",
+            "description": "Another app with Paymob payment gateway integration.",
+            "skills": [
+                "Payment Gateway Integration"
+            ],
+            "action": "null"
+        }
+    }
+}

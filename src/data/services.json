@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Cross-Platform Mobile Application Development",
+        "proposal": "Develop high-quality mobile applications that work seamlessly across both Android and iOS platforms, ensuring a consistent user experience.",
+        "image": "smartphone"
+    },
+    {
+        "name": "Feature Enhancement & Application Optimization",
+        "proposal": "Enhance existing features and optimize app performance to boost user engagement, speed, and reliability.",
+        "image": "performance"
+    },
+    {
+        "name": "API & Backend Integration",
+        "proposal": "Seamlessly connect your app with robust APIs and backend systems to enable efficient data flow and functionality.",
+        "image": "hierarchy"
+    },
+    {
+        "name": "State Management & Data Storage Solutions",
+        "proposal": "Implement efficient state management strategies and scalable data storage solutions to enhance app responsiveness and data handling.",
+        "image": "server"
+    },
+    {
+        "name": "Payment Gateway & In-App Purchase Integration",
+        "proposal": "Integrate secure and user-friendly payment gateways and in-app purchase systems to monetize your applications seamlessly.",
+        "image": "credit"
+    },
+    {
+        "name": "App Maintenance & Technical Support",
+        "proposal": "Provide ongoing app maintenance and technical support to ensure seamless operation, security, and compliance with the latest standards.",
+        "image": "setting"
+    },
+    {
+        "name": "UI/UX Updates & Refactoring",
+        "proposal": "Refresh and optimize app interfaces and user experiences to boost engagement, usability, and accessibility.",
+        "image": "digital"
+    },
+    {
+        "name": "App Deployment & Distribution",
+        "proposal": "Manage the entire app deployment and distribution process across major app stores, ensuring compliance and smooth launches.",
+        "image": "arrow"
+    },
+    {
+        "name": "Consulting & Project Planning",
+        "proposal": "Offer expert guidance and structured project planning to help bring app ideas to fruition with strategic roadmaps and measurable goals.",
+        "image": "solution"
+    }
+]

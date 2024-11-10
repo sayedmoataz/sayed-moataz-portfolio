@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Git",
+        "image": "https://firebasestorage.googleapis.com/v0/b/personal-portfolio-d8ad2.appspot.com/o/skills%2Fothers%2Fgit.webp?alt=media&token=6e72ccea-ae71-4304-8e3f-04d5814f235e",
+        "color": "#DE4C36"
+    },
+    {
+        "name": "Dart",
+        "image": "https://firebasestorage.googleapis.com/v0/b/personal-portfolio-d8ad2.appspot.com/o/skills%2Fmobile%2Fdart.webp?alt=media&token=1b23908d-b4ce-46ea-92a6-fd49dec89d0a",
+        "color": "#055A9D"
+    },
+    {
+        "name": "Flutter",
+        "image": "https://firebasestorage.googleapis.com/v0/b/personal-portfolio-d8ad2.appspot.com/o/skills%2Fmobile%2Fflutter.webp?alt=media&token=82b91c6e-b2a7-45b2-a81a-252deb98214d",
+        "color": "#47C5FB"
+    },
+    {
+        "name": "Firebase",
+        "image": "https://firebasestorage.googleapis.com/v0/b/personal-portfolio-d8ad2.appspot.com/o/skills%2Fmobile%2Ffirebase.webp?alt=media&token=681fdc7d-8fcd-4e52-9315-7b34f8d44529",
+        "color": "#FCCA3F"
+    },
+    {
+        "name": "SQflite",
+        "image": "https://firebasestorage.googleapis.com/v0/b/personal-portfolio-d8ad2.appspot.com/o/skills%2Fmobile%2Fsqlite.webp?alt=media&token=91f8bd3e-d606-4265-b4ac-e7d3dc143398",
+        "color": "#3095D6"
+    },
+    {
+        "name": "Cubit",
+        "image_name": "cubit",
+        "color": "#08D0BB"
+    },
+    {
+        "name": "GetX",
+        "image_name": "getx",
+        "color": "#6311B5"
+    },
+    {
+        "name": "Hive",
+        "image_name": "hive",
+        "color": "#FCEE21"
+    },
+    {
+        "name": "GitHub",
+        "image_name": "github",
+        "color": "#FFFFFF"
+    },
+    {
+        "name": "VS Code",
+        "image_name": "vscode",
+        "color": "#199FDF"
+    },
+    {
+        "name": "Android Studio",
+        "image_name": "androidstudio",
+        "color": "#4EDF8E"
+    },
+    {
+        "name": "XCode",
+        "image_name": "xcode",
+        "color": "#03B1EE"
+    }
+]

@@ -1,0 +1,28 @@
+{
+    "title": "Flutter Developer",
+    "name": "Sayed Moataz",
+    "gmail": {
+        "title": "Gmail",
+        "url": "mailto:sayedmoataz9@gmail.com"
+    },
+    "linkedin": {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/saayeedmdawoud/"
+    },
+    "facebook": {
+        "title": "Facebook",
+        "url": "https://www.facebook.com/SaayeedMDawoud/"
+    },
+    "github": {
+        "title": "GitHub",
+        "url": "https://github.com/sayedmoataz"
+    },
+    "whatsapp": {
+        "title": "WhatsApp",
+        "url": "https://wa.me/+201147880178"
+    },
+    "stack_overFlow": {
+        "title": "Stack Overflow",
+        "url": "https://stackoverflow.com/users/11287483/saayeed-m-daawoud"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "drawer": [
+        {
+            "link": "/",
+            "title": "Home"
+        },
+        {
+            "link": "/projects",
+            "title": "Projects"
+        }
+    ],
+    "toolbar": [
+        {
+            "link": "/",
+            "title": "Home"
+        },
+        {
+            "link": "/projects",
+            "title": "Projects"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+#preloading {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #40718D;
+    background-image: radial-gradient(circle at top,
+            #00000000,
+            #00000099),
+        linear-gradient(0deg, #00000080,
+            #00000000);
+    animation: 1.2s bg ease infinite alternate;
+}
