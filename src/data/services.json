@@ -15,11 +15,6 @@
         "image": "hierarchy"
     },
     {
-        "name": "State Management & Data Storage Solutions",
-        "proposal": "Implement efficient state management strategies and scalable data storage solutions to enhance app responsiveness and data handling.",
-        "image": "server"
-    },
-    {
         "name": "Payment Gateway & In-App Purchase Integration",
         "proposal": "Integrate secure and user-friendly payment gateways and in-app purchase systems to monetize your applications seamlessly.",
         "image": "credit"
