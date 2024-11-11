@@ -17,7 +17,7 @@ import githubLottie from './../../assets/lotties/github.json'
 import whatsappLottie from './../../assets/lotties/whatsapp.json'
 import stackOverflowLottie from './../../assets/lotties/stack_overflow.json'
 import data from '../../data/portfolio.json'
-import img from '../../assets/sayed.jpg'
+import img from '../../assets/sayed.png'
 
 const Home = () => {
     const { state } = useContext(AppContext)
@@ -131,7 +131,7 @@ const Home = () => {
         >
             <Box
                 component='img'
-                alt="Mohammed Moataz"
+                alt="Sayed Moataz"
                 src={img}
                 loading='eager'
                 sx={{

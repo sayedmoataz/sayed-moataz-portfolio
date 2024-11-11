@@ -5,6 +5,10 @@
             "title": "Home"
         },
         {
+            "link": "/experiences",
+            "title": "Experiences"
+        },
+        {
             "link": "/projects",
             "title": "Projects"
         }
@@ -13,6 +17,10 @@
         {
             "link": "/",
             "title": "Home"
+        },
+        {
+            "link": "/experiences",
+            "title": "Experiences"
         },
         {
             "link": "/projects",

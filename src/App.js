@@ -18,6 +18,7 @@ import { SnackbarProvider } from 'notistack'
 
 import { AppProvider } from './context/context/context.js'
 import Main from "./pages/main/main.js"
+import Experiences from "./pages/experiences/experiences.js"
 import Projects from "./pages/projects/projects.js"
 import ResponsiveAppBar from './components/navbar/navbar.js'
 import Footer from './components/footer/footer.js'
@@ -28,7 +29,7 @@ const App = () => {
   useEffect(() => {
     console.clear()
 
-    console.log("%c Sayed Moataz",
+    console.log("%c Sayed Moataz Daawoud",
       `color:#368F80;
       font-size:75px;
       font-weight:bold;
@@ -49,6 +50,7 @@ const App = () => {
 
               <Routes>
                 <Route exact path='/' element={<Main />} />
+                  <Route exact path='/experiences' element={<Experiences />} />
                 <Route exact path='/projects' element={<Projects />} />
 
                 <Route path="*" element={<Navigate replace to="/" />} />

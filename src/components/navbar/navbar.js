@@ -19,7 +19,7 @@ import MenuIcon from '@mui/icons-material/Menu'
 import { AppContext } from '././../../context/context/context.js'
 import data from "./../../data/navbar.json"
 import resume from './../../assets/pdf/Sayed_Moataz___Flutter_Developer.pdf'
-import logo from '../../assets/sayed.jpg'
+import logo from '../../assets/sayed.png'
 
 const drawerWidth = 240
 

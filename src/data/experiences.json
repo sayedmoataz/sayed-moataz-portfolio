@@ -1,0 +1,64 @@
+{
+    "data": [
+        {
+            "job_title": "Flutter Developer",
+            "company_name": "Metachain Technologies Inc.",
+            "location": "Remote, Canada",
+            "employment_type": "Full-time",
+            "start_date": "2023",
+            "end_date": "Present",
+            "description": "- High-Quality Mobile Applications: Develop and maintain high-quality mobile applications using the Flutter frame - work for AI and blockchain applications. - Cross-Functional Collaboration: Collaborate with cross-functional teams to understand and translate project re- quirements into technical solutions. - Code Quality and Debugging: Write clean, efficient, and maintainable code while conducting thorough testing and debugging. - Technical Documentation: Document technical specifications for knowledge sharing.",
+            "technologies_used": [],
+            "company_website": "#",
+            "relevant_projects": []
+        },
+        {
+            "job_title": "Flutter Developer",
+            "company_name": "Zefaaf Platform",
+            "location": "Remote, Netherlands",
+            "employment_type": "Full-time",
+            "start_date": "Sep 2024",
+            "end_date": "Present",
+            "description": "- Project Maintenance and Feature Enhancement: Maintain and enhance an existing mobile application using Flutter, including fixing bugs and adding new features to improve user experience and performance. - Cross-Functional Collaboration: Collaborate closely with the backend team to integrate APIs and ensure seamless data flow between front-end and back-end services. - Refactoring and UI/UX Improvements: Develop a refactoring plan to improve code structure and implement new UI/UX designs for better application performance and user satisfaction. - Code Quality and Debugging: Write clean, efficient, and maintainable code, while conducting thorough testing and debugging to ensure high-quality application releases.",
+            "technologies_used": [],
+            "company_website": "#",
+            "relevant_projects": []
+        },
+        {
+            "job_title": "Flutter Developer",
+            "company_name": "Algoriza",
+            "location": "Remotely, Egypt",
+            "employment_type": "Internship",
+            "start_date": "2022",
+            "end_date": "2022",
+            "description": "- Hands-On Experience: Gained hands-on experience in Flutter basics, state management, APIs, and local storage. - Application Development: Assisted in developing applications, enhancing Dart programming and mobile app archi-tecture skills.",
+            "technologies_used": [],
+            "company_website": "#",
+            "relevant_projects": []
+        },
+        {
+            "job_title": "Software Engineer",
+            "company_name": "Master Micro",
+            "location": "Remote, Egypt",
+            "employment_type": "Internship",
+            "start_date": "2021",
+            "end_date": "2021",
+            "description": "Programming Experience: Worked with C/C++, Java, and Python, focusing on data structures and algorithms. Developed efficient solutions using these languages to tackle computational challenges. Applied in-depth knowledge of data handling and optimization in various algorithmic contexts.",
+            "technologies_used": [],
+            "company_website": "#",
+            "relevant_projects": []
+        },
+        {
+            "job_title": "Freelance Flutter Developer",
+            "company_name": "Freelance Projects",
+            "location": "Remotely, Egypt",
+            "employment_type": "Internship",
+            "start_date": "2022",
+            "end_date": "2022",
+            "description": "- Application Development: Developed user-friendly mobile applications for educational and health sectors. - Client Collaboration: Collaborated with clients to understand their requirements and deliver tailored solutions. - Project Management: Managed project timelines and ensure quality assurance.",
+            "technologies_used": [],
+            "company_website": "#",
+            "relevant_projects": []
+        }
+    ]
+}

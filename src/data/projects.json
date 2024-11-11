@@ -134,8 +134,7 @@
             "description": "Another app with Paymob payment gateway integration.",
             "skills": [
                 "Payment Gateway Integration"
-            ],
-            "action": "null"
+            ]
         }
     }
 }

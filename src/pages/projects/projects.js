@@ -130,52 +130,20 @@ const Projects = () => {
                                     >
                                         {project.skills.join(' - ')}
                                     </Typography>
-                                    {/* {project.contributors
-                                        ? <Stack direction='column'>
-                                            <Box
-                                                component={'a'}
-                                                width={'fit-content'}
-                                                href={project.contributors.link}
+                                    {project.action &&
+                                        <Box width="50%" alignSelf={{ xs: "center", md: "flex-start" }}>
+                                            <ColorButton
+                                                href={project.link}
                                                 target='_blank'
-                                                sx={{
-                                                    color: state.color.secondary,
-                                                    fontSize: 16,
-                                                    textDecoration: 'none',
-                                                    '&:hover': { color: state.color.teal }
-                                                }}
                                             >
-                                                <Stack
-                                                    direction="row"
-                                                    justifyContent="center"
-                                                    alignItems="center">
-                                                    Contributors <LaunchIcon sx={{ width: 15, mx: 1 }} />
-                                                </Stack>
-                                            </Box>
-                                            <Typography
-                                                variant='span'
-                                                py={1}
-                                                fontFamily='"Noto Sans", sans-serif'
-                                                color={state.color.light}
-                                                fontSize={14}
-                                            >
-                                                {"I collaborated with " + project.contributors.number + " teamates to complete this project"}
-                                            </Typography>
-                                        </Stack>
-                                        : null
-                                    } */}
-                                    <Box width="50%" alignSelf={{ xs: "center", md: "flex-start" }}>
-                                        <ColorButton
-                                            href={project.link}
-                                            target='_blank'
-                                        >
-                                            <Typography
-                                                mr={0.5}
-                                                fontSize={{ xs: 14, md: 16 }}
-                                                fontFamily='"Noto Sans", sans-serif'
-                                            >{project.action}</Typography>
-                                            <LaunchIcon fontSize='100px' />
-                                        </ColorButton>
-                                    </Box>
+                                                <Typography
+                                                    mr={0.5}
+                                                    fontSize={{ xs: 14, md: 16 }}
+                                                    fontFamily='"Noto Sans", sans-serif'
+                                                >{project.action}</Typography>
+                                                <LaunchIcon fontSize='100px' />
+                                            </ColorButton>
+                                        </Box>}
                                 </Stack>
                                 <Box
                                     width={{ xs: '90%', md: '45%' }}
