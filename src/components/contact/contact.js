@@ -1,24 +1,24 @@
-import React, {
-    useContext,
-    useState
-} from 'react'
+import emailjs from '@emailjs/browser'
 import {
     Box,
     Stack,
     Typography,
 } from '@mui/material'
+import Lottie from "lottie-react"
 import { useSnackbar } from 'notistack'
-import emailjs from '@emailjs/browser'
-import Lottie from "react-lottie"
+import React, {
+    useContext,
+    useState
+} from 'react'
 
+import CustomTextField from '../../utils/textfield.js'
 import { AppContext } from './../../context/context/context.js'
 import { ColorButton } from './../../utils/button.js'
 import Textarea from './../../utils/teaxtarea.js'
-import CustomTextField from '../../utils/textfield.js'
 
+import data from '../../data/contact.json'
 import contactLottie from './../../assets/lotties/contact.json'
 import portfolioLottie from './../../assets/lotties/portfolio.json'
-import data from '../../data/contact.json'
 
 const Contact = (props) => {
     const { enqueueSnackbar } = useSnackbar()
@@ -142,20 +142,18 @@ const Contact = (props) => {
                     height: { xs: "0%", md: "30%", xl: "30%" }
                 }}>
                 {!props.forPortfolio
-                    ? <Lottie options={{
-                        loop: true,
-                        autoplay: true,
-                        animationData: contactLottie,
-                        rendererSettings: { preserveAspectRatio: "xMidYMid slice" }
-                    }} width={"100%"} />
-                    : <Lottie options={{
-                        loop: true,
-                        autoplay: true,
-                        animationData: portfolioLottie,
-                        rendererSettings: {
-                            preserveAspectRatio: "xMidYMid slice",
-                        },
-                    }} width={"100%"} />
+                    ? <Lottie
+                        loop={true}
+                        autoplay={true}
+                        animationData={contactLottie}
+                        style={{ width: "100%" }}
+                    />
+                    : <Lottie
+                        loop={true}
+                        autoplay={true}
+                        animationData={portfolioLottie}
+                        style={{ width: "100%" }}
+                    />
                 }
             </Box>
         </Stack>

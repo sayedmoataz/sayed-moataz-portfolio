@@ -1,0 +1,18 @@
+{
+    "articles": [        
+        {
+            "id": "pdf-services",
+            "title": "Flutter Generate PDF Services",
+            "filename": "pdf_services.md",
+            "technologies": [
+                "Flutter",
+                "Dart",
+                "PDF Generation",
+                "Services"
+            ],
+            "createdDate": "2025-08-07",
+            "summary": "Learn how to create a Flutter service that generates PDF files using the pdf package.",
+            "readTime": "10 min read"
+        }
+    ]
+}

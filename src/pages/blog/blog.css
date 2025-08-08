@@ -1,0 +1,70 @@
+.blog-container {
+    min-height: 100vh;
+    padding: 2rem 0;
+}
+
+.blog-card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 20px 5px rgba(54, 143, 128, 0.3) !important;
+}
+
+.blog-content {
+    line-height: 1.8;
+}
+
+.blog-content h1,
+.blog-content h2,
+.blog-content h3,
+.blog-content h4,
+.blog-content h5,
+.blog-content h6 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.blog-content p {
+    margin-bottom: 1rem;
+}
+
+.blog-content ul,
+.blog-content ol {
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.blog-content code {
+    background-color: rgba(54, 143, 128, 0.1);
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+}
+
+.blog-content pre {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 1rem 0;
+}
+
+.blog-content pre code {
+    background-color: transparent;
+    padding: 0;
+}
+
+.technology-chip {
+    margin: 0.25rem;
+}
+
+.expand-button {
+    transition: transform 0.3s ease;
+}
+
+.expand-button:hover {
+    transform: scale(1.1);
+} 

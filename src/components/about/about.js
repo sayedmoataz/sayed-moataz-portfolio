@@ -1,15 +1,15 @@
-import React, { useContext } from 'react'
 import {
-    Stack,
     Box,
+    Stack,
     Typography,
 } from '@mui/material'
-import Lottie from 'react-lottie'
+import Lottie from 'lottie-react'
+import React, { useContext } from 'react'
 
+import data from '../../data/about.json'
+import aboutLottie from "./../../assets/lotties/about.json"
 import { AppContext } from './../../context/context/context.js'
 import Header from './../../utils/header.js'
-import aboutLottie from "./../../assets/lotties/about.json"
-import data from '../../data/about.json'
 
 const About = () => {
     const { state } = useContext(AppContext)
@@ -25,14 +25,9 @@ const About = () => {
         >
             <Box sx={{ width: { xs: "70%", md: "30%" }, }}>
                 <Lottie
-                    options={{
-                        loop: true,
-                        autoplay: true,
-                        animationData: aboutLottie,
-                        rendererSettings: {
-                            preserveAspectRatio: "xMidYMid slice",
-                        },
-                    }}
+                    loop={true}
+                    autoplay={true}
+                    animationData={aboutLottie}
                 />
             </Box>
             <Box

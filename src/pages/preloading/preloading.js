@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box } from '@mui/material'
-import Lottie from 'react-lottie'
+import Lottie from 'lottie-react'
 
 import portfolio from "./../../assets/lotties/me.json"
 
@@ -10,14 +10,9 @@ const Preloading = () =>
   <div id="preloading">
     <Box sx={{ width: { xs: "70%", md: "30%" } }}>
       <Lottie
-        options={{
-          loop: true,
-          autoplay: true,
-          animationData: portfolio,
-          rendererSettings: {
-            preserveAspectRatio: "xMidYMid slice",
-          },
-        }}
+        loop={true}
+        autoplay={true}
+        animationData={portfolio}
       />
     </Box>
   </div >
