@@ -9,10 +9,6 @@
             "title": "Experiences"
         },
         {
-            "link": "/projects",
-            "title": "Projects"
-        },
-        {
             "link": "/blog",
             "title": "Blog"
         }
@@ -25,11 +21,7 @@
         {
             "link": "/experiences",
             "title": "Experiences"
-        },
-        {
-            "link": "/projects",
-            "title": "Projects"
-        },
+        },        
         {
             "link": "/blog",
             "title": "Blog"

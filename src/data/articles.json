@@ -13,6 +13,20 @@
             "createdDate": "2025-08-07",
             "summary": "Learn how to create a Flutter service that generates PDF files using the pdf package.",
             "readTime": "10 min read"
+        },
+        {
+            "id": "firebase-analytics",
+            "title": "Firebase Analytics",
+            "filename": "firebase_analytics.md",
+            "technologies": [
+                "Flutter",
+                "Dart",
+                "Firebase",
+                "Analytics"
+            ],
+            "createdDate": "2025-06-29",
+            "summary": "Learn how to use Firebase Analytics in Flutter.",
+            "readTime": "10 min read"
         }
     ]
 }
