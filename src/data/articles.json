@@ -1,5 +1,5 @@
 {
-    "articles": [        
+    "articles": [
         {
             "id": "pdf-services",
             "title": "Flutter Generate PDF Services",
@@ -26,7 +26,22 @@
             ],
             "createdDate": "2025-06-29",
             "summary": "Learn how to use Firebase Analytics in Flutter.",
-            "readTime": "10 min read"
+            "readTime": "8 min read"
+        },
+        {
+            "id": "notification-services",
+            "title": "Building a Robust Notification Status Service in Flutter",
+            "filename": "notification_services.md",
+            "technologies": [
+                "Flutter",
+                "Dart",
+                "Clean Architecture",
+                "SOLID Principles",
+                "Notifications"
+            ],
+            "createdDate": "2025-07-05",
+            "summary": "A comprehensive analysis of implementing a production-ready notification monitoring system that follows best practices in software architecture and design patterns.",
+            "readTime": "15 min read"
         }
     ]
 }
