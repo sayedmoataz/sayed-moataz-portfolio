@@ -13,7 +13,7 @@ import { AppContext } from './../../context/context/context.js'
 import data from "./../../data/skills.json"
 import Header from './../../utils/header.js'
 
-const AnimatedProgressBar = ({ skill, delay }) => {
+const AnimatedProgressBar = ({ skill, delay, state }) => {
     const [progress, setProgress] = useState(0)
     const [isVisible, setIsVisible] = useState(false)
     const progressRef = useRef(null)
@@ -87,7 +87,7 @@ const AnimatedProgressBar = ({ skill, delay }) => {
                     variant="body1"
                     fontFamily='"Noto Sans", sans-serif'
                     sx={{
-                        color: '#FFFFFF',
+                        color: state.color.light,
                         fontWeight: 600,
                         fontSize: { xs: 14, md: 16 }
                     }}
@@ -157,6 +157,7 @@ const Skills = () => {
                                 <AnimatedProgressBar
                                     skill={skill}
                                     delay={skillIndex * 100}
+                                    state={state}
                                 />
                             </Grid>
                         ))}

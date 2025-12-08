@@ -1,5 +1,4 @@
 import {
-  Box,
   Container,
   CssBaseline
 } from '@mui/material'
@@ -19,6 +18,7 @@ import {
 import Footer from './components/footer/footer.js'
 import LoadingScreen from './components/loading/LoadingScreen.js'
 import ResponsiveAppBar from './components/navbar/navbar.js'
+import ThemeWrapper from './components/theme/ThemeWrapper.js'
 import { AppProvider } from './context/context/context.js'
 import Blog from "./pages/blog/blog.js"
 import Experiences from "./pages/experiences/experiences.js"
@@ -58,7 +58,7 @@ const App = () => {
       <CssBaseline />
 
       <Router>
-        <Box>
+        <ThemeWrapper>
           <Container maxWidth="xl">
             <SnackbarProvider maxSnack={3}>
               <ResponsiveAppBar />
@@ -75,7 +75,7 @@ const App = () => {
               <FloatingActionButton />
             </SnackbarProvider>
           </Container>
-        </Box>
+        </ThemeWrapper>
       </Router>
     </React.Fragment>
   </AppProvider >

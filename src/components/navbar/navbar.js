@@ -1,9 +1,11 @@
-import React, { useContext, useState } from 'react'
-import { useNavigate } from "react-router-dom"
+import Brightness4Icon from '@mui/icons-material/Brightness4'
+import Brightness7Icon from '@mui/icons-material/Brightness7'
+import MenuIcon from '@mui/icons-material/Menu'
 import {
-    Avatar,
     AppBar,
+    Avatar,
     Box,
+    Button,
     Divider,
     Drawer,
     IconButton,
@@ -11,25 +13,30 @@ import {
     ListItem,
     ListItemButton,
     ListItemText,
+    Stack,
     Toolbar,
-    Button,
 } from '@mui/material'
-import MenuIcon from '@mui/icons-material/Menu'
+import { useContext, useState } from 'react'
+import { useNavigate } from "react-router-dom"
 
-import { AppContext } from '././../../context/context/context.js'
-import data from "./../../data/navbar.json"
-import resume from './../../assets/pdf/Sayed_Moataz___Flutter_Developer.pdf'
 import logo from '../../assets/sayed.png'
+import resume from './../../assets/pdf/Sayed_Moataz___Flutter_Developer.pdf'
+import data from "./../../data/navbar.json"
+import { AppContext } from '././../../context/context/context.js'
 
 const drawerWidth = 240
 
 const DrawerAppBar = (props) => {
     const { window } = props
     const [mobileOpen, setMobileOpen] = useState(false)
-    const { state } = useContext(AppContext)
+    const { state, dispatch } = useContext(AppContext)
     const navigate = useNavigate()
 
     const handleDrawerToggle = () => setMobileOpen((prevState) => !prevState)
+
+    const handleThemeToggle = () => {
+        dispatch({ type: 'TOGGLE_THEME' })
+    }
 
     const container = window !== undefined ? () => window().document.body : undefined
 
@@ -80,7 +87,7 @@ const DrawerAppBar = (props) => {
             <AppBar
                 component="nav"
                 sx={{
-                    bgcolor: '#1E1E1EE9',
+                    bgcolor: state.theme === 'dark' ? '#1E1E1EE9' : '#FFFFFFE9',
                     boxShadow: `0px 0px 15px 1px ${state.color.primary}`,
                     py: '0.75%',
                 }}
@@ -91,14 +98,14 @@ const DrawerAppBar = (props) => {
                         aria-label="open drawer"
                         edge="start"
                         onClick={handleDrawerToggle}
-                        sx={{ mr: 2, display: { sm: 'none' } }}
+                        sx={{ mr: 2, display: { sm: 'none' }, color: state.color.light }}
                     >
                         <MenuIcon />
                     </IconButton>
                     <Box onClick={() => navigate('/')}>
                         <Avatar src={logo} alt='Mohammed' />
                     </Box>
-                    <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+                    <Box sx={{ display: { xs: 'none', sm: 'flex' }, alignItems: 'center', gap: 1 }}>
                         {data.toolbar.map((item, index) => <Button
                             key={index}
                             onClick={() => navigate(item.link)}
@@ -122,6 +129,22 @@ const DrawerAppBar = (props) => {
                             }}>
                             Resume
                         </Button>
+
+                        {/* Theme Toggle */}
+                        <Stack direction="row" alignItems="center" spacing={1} sx={{ ml: 2 }}>
+                            <IconButton
+                                onClick={handleThemeToggle}
+                                sx={{
+                                    color: state.color.light,
+                                    border: `1px solid ${state.color.primary}`,
+                                    '&:hover': {
+                                        backgroundColor: state.color.primary,
+                                    }
+                                }}
+                            >
+                                {state.theme === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
+                            </IconButton>
+                        </Stack>
                     </Box>
                 </Toolbar>
             </AppBar>
