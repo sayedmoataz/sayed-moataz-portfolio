@@ -1,0 +1,214 @@
+\documentclass[letterpaper,11pt]{article}
+\usepackage[left=0.5in, right=0.5in, top=0.3in, bottom=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage[usenames,dvipsnames]{xcolor}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\usepackage[unicode, colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue]{hyperref}
+\usepackage[normalem]{ulem}
+\let\oldhref\href
+\renewcommand{\href}[2]{\oldhref{#1}{\uline{#2}}}
+\hypersetup{
+    linkcolor=linkcolour,
+    urlcolor=linkcolour,
+    pdfauthor={Sayed-Moataz},
+    pdftitle={Sayed Moataz},
+    pdfsubject={Sayed Moataz}
+}
+
+\usepackage[defaultlines=3,all]{nowidow}
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\pagestyle{empty}
+
+\setlength{\parindent}{0pt}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{ragged2e}
+\usepackage{fontawesome5}
+\usepackage{comment}
+\usepackage[super]{nth}
+\usepackage{indentfirst}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{array}
+\usepackage{supertabular}
+\usepackage{tabularx}
+
+\setlist[itemize]{leftmargin=0pt, itemsep=0pt, parsep=0pt}
+
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.47\textwidth}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+
+\urlstyle{same}
+
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\raggedright\Large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{4pt}]
+
+\titlespacing*{\section}{0pt}{-6pt}{-3pt}
+
+\renewcommand{\resumeSubheading}[4]{
+  \vspace{-1mm}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \end{tabular*}\vspace{2pt}
+}
+
+\newcommand{\resumeItem}[2]{
+  \item\small\justifying{
+    {#2 \vspace{1pt}}
+  }
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, label=--]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[label=-, itemsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+\definecolor{mylinkcolor}{RGB}{0,71,171}
+\definecolor{darkblue}{RGB}{0,0,128}
+\definecolor{darkred}{RGB}{139,0,0}
+
+\begin{document}
+\vspace*{-0.7in}
+\noindent
+\begin{minipage}[c]{0.2\textwidth}
+    \raggedright
+    \small
+    Helwan, Cairo \\
+    \begin{tabular}{@{}c l@{}}
+    \href{tel:+201090461339}{{\faPhone*}}&\hspace{0.2cm}\href{tel:+201090461339}{+(20)1090461339} \\
+    \href{mailto:sayedmoataz9@gmail.com}{{\faEnvelope}}&\hspace{0.2cm}\href{mailto:sayedmoataz9@gmail.com}{sayedmoataz9@gmail.com}\\
+    \end{tabular}
+\end{minipage}%
+\hfill
+\begin{minipage}[c]{0.52\textwidth}
+    \centering
+    {\Huge \textbf{\textit{{Sayed Moataz}}}} \\
+    {\vspace{0.3cm}\Large Flutter Developer}
+\end{minipage}%
+\hfill
+\begin{minipage}[c]{0.25\textwidth}
+    \centering
+    \small
+    \renewcommand{\arraystretch}{1.15}
+    \begin{tabular}{@{}c l@{}}
+        \href{https://www.linkedin.com/in/saayeedmdawoud}{{\faLinkedin}} &\hspace{0.2cm}\href{https://www.linkedin.com/in/saayeedmdawoud}{LinkedIn} \\
+        \href{https://github.com/sayedmoataz}{{\faGithub}} & \hspace{0.2cm}\href{https://github.com/sayedmoataz}{GitHub} \\
+        \href{https://stackoverflow.com/users/11287483/saayeed-m-daawoud}{{\faStackOverflow}} & \hspace{0.2cm}\href{https://stackoverflow.com/users/11287483/saayeed-m-daawoud}{Stack Overflow}
+    \end{tabular}
+\end{minipage}
+
+% Summary
+\section*{Summary}
+\begin{itemize}[leftmargin=0pt]
+    \item Experienced Flutter Developer with a proven track record of building high-quality, scalable mobile applications for real estate, e-commerce, and educational platforms. Skilled in clean architecture, state management, and API integration, with a focus on responsive design and user experience. Adept at collaborating remotely with cross-functional teams using agile methodologies and modern tools like Jira, Slack, and Git.
+\end{itemize}
+
+% Experience
+\section*{Experience}
+\resumeSubHeadingListStart
+   \resumeSubheading{PLAENT LAND L.L.C}{Full-Time, Remote, UAE}{}{}
+      \resumeItemListStart
+        \resumeItem{}{Built real estate apps with Flutter, integrating APIs, Google Maps, and Firebase (Crashlytics, Analytics).}
+        \resumeItem{}{Designed responsive UI from Figma, supporting localization for multilingual users.}
+        \resumeItem{}{Used clean architecture and Bloc for maintainable, scalable code.}
+        \resumeItem{}{Managed tasks with Jira and collaborated via Slack for efficient remote work.}
+      \resumeItemListEnd
+
+  \resumeSubheading{Sonbla}{Part-Time, Remote, KSA}{}{}
+      \resumeItemListStart
+        \resumeItem{}{Enhanced user and delivery apps and developed a new vendor app using Flutter.}
+        \resumeItem{}{Implemented streams for real-time data, improving app responsiveness.}
+        \resumeItem{}{Applied MVVM architecture with Provider for modular code.}
+        \resumeItem{}{Ensured app reliability through testing and bug fixes.}
+        \resumeItem{}{Added features with Branch.io for deep linking and Sentry for error tracking.}
+      \resumeItemListEnd
+
+   \resumeSubheading{Metachain Technologies Inc.}{Full-Time, Remote, Canada}{}{}
+      \resumeItemListStart
+        \resumeItem{}{Developed 5+ mobile apps using Flutter.}
+        \resumeItem{}{Collaborated with backend, ML, DevOps, and design teams for feature delivery.}
+        \resumeItem{}{Wrote technical documentation in Markdown to aid onboarding.}
+        \resumeItem{}{Managed tasks with ClickUp and Notion for timely feature delivery.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+% Education
+\section*{Education}
+\resumeSubHeadingListStart
+   \resumeSubheading{Faculty of Computers and Artificial Intelligence, Helwan University}{}{}{}
+      \resumeItemListStart
+        \resumeItem{Relevant Coursework}{Mobile Application Development, Data Structures, Algorithms, Software Engineering}
+        \resumeItem{Graduation Project}{Augmented Reality with Flutter and Unity 3D (A Grade)}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+% Projects
+\section*{Projects}
+\textbf{Homes App} \href{https://play.google.com/store/apps/details?id=com.homes.radar}{Google Play} | \href{https://apps.apple.com/ae/app/homes/id6744656599}{App Store}
+\begin{itemize}
+    \item Developed a real estate app using Flutter, integrating APIs, Google Maps, and Firebase for seamless data handling.
+    \item Designed responsive UIs from Figma and implemented localization for multilingual users.
+    \item Applied clean architecture and Bloc to ensure scalability and maintainability.
+\end{itemize}
+
+\textbf{Sonbla Apps} \href{https://play.google.com/store/apps/developer?id=Sonbla}{Google Play} | \href{https://apps.apple.com/us/developer/ahmed-ghazy/id1672007872}{App Store}
+\begin{itemize}
+    \item Enhanced user and delivery apps and developed a vendor app using Flutter.
+    \item Integrated Branch.io for deep linking and analytics, and Sentry for error tracking.
+    \item Applied MVVM architecture with Provider and streams for real-time updates.
+\end{itemize}
+
+\textbf{AI RADAR} \href{https://play.google.com/store/apps/details?id=com.atworld.atradar}{Google Play} | \href{https://apps.apple.com/ae/app/ai-radar/id6747173241}{App Store}
+\begin{itemize}
+    \item Developed a travel and discovery assistant app using Flutter and Google Places API for real-time location insights.
+    \item Implemented multiple exploration modes (Map, AR, and List views) for intuitive discovery and navigation.
+    \item Integrated detailed place data, including photos, reviews, hours, and directions for a complete experience.
+    \item Focused on responsive design, performance optimization, and smooth AR interactions for travelers and locals.
+\end{itemize}
+
+\textbf{Privilege App} \href{https://play.google.com/store/apps/details?id=com.privilegeapps.privilege}{Google Play} | \href{https://apps.apple.com/us/app/privilege/id1632963488}{App Store}
+\begin{itemize}
+    \item Built and maintained an educational app for course management using Flutter.
+    \item Revamped the UI/UX to enhance engagement and retention.
+    \item Strengthened testing and debugging workflows to ensure app stability.
+\end{itemize}
+
+% Skills
+\section*{Skills}
+\begin{itemize}[leftmargin=0pt]
+    \item \textbf{Programming Languages:} Dart, Python, Java
+    \item \textbf{Mobile Development:} Flutter, State Management (Bloc, Provider, Cubit, GetX), Firebase (Firestore, Functions, Storage, Crashlytics, Remote Config, Analytics, App Distribution), Google Maps, Google Places, Branch.io, Sentry, Networking (Http, Dio), Local Storage (SQFlite, Shared Preferences), Streams, Localization, Responsive Design, Payment Integration, Push Notifications, Third-Party API Integration, Shorebird, Flavors
+    \item \textbf{Development Practices:} Clean Code, Clean Architecture, MVVM, Testing (Unit, Widget), Agile Methodologies
+    \item \textbf{Tools:} Git, GitHub, Git Hooks, VS Code, Android Studio, Xcode, Figma, Jira, Slack, ClickUp, Notion, CI/CD Tools
+    \item \textbf{Soft Skills:} Collaboration, Problem-Solving, Adaptability, Communication, Team Leadership
+\end{itemize}
+
+% Achievements
+\section*{Achievements}
+\begin{itemize}[left=0em]
+    \item \textbf{Stack Overflow Contributor:} 400+ reputation points, 10+ answers, and 3 accepted as best answers.
+    \item \textbf{Open Source Contributions:} Actively contribute to the Flutter and Dart communities on GitHub and Reddit.
+    \item \textbf{Graduation Project:} Developed an Augmented Reality application using Flutter and Unity 3D, earning an A grade.
+\end{itemize}
+
+\end{document}

@@ -1,13 +1,13 @@
-import React from 'react'
 import {
     Toolbar,
 } from '@mui/material'
+import React from 'react'
 
-import Home from './../../components/home/home.js'
 import About from './../../components/about/about.js'
-import Skills from './../../components/skills/skills.js'
-import Services from './../../components/services/services.js'
 import Contact from './../../components/contact/contact.js'
+import Home from './../../components/home/home.js'
+import Services from './../../components/services/services.js'
+import Skills from './../../components/skills/skills.js'
 
 const Main = () => <React.Fragment>
     <div id='Home'></div>

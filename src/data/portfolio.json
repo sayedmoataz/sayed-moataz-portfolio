@@ -1,6 +1,9 @@
 {
-    "title": "Flutter Developer",
+    "title": "Software Engineer - Flutter Developer",
     "name": "Sayed Moataz",
+    "location": "Cairo, Egypt",
+    "phone": "+201090461339",
+    "summary": "Experienced Flutter Developer with a proven track record of building high-quality, scalable mobile applications for real estate, e-commerce, and educational platforms. Skilled in clean architecture, state management, and API integration, with a focus on responsive design and user experience.",
     "gmail": {
         "title": "Gmail",
         "url": "mailto:sayedmoataz9@gmail.com"
@@ -24,5 +27,9 @@
     "stack_overFlow": {
         "title": "Stack Overflow",
         "url": "https://stackoverflow.com/users/11287483/saayeed-m-daawoud"
+    },
+    "medium": {
+        "title": "Medium",
+        "url": "https://medium.com/@sayedmoataz9"
     }
 }

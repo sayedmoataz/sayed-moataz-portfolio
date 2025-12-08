@@ -2,41 +2,105 @@
     {
         "name": "Cross-Platform Mobile Application Development",
         "proposal": "Develop high-quality mobile applications that work seamlessly across both Android and iOS platforms, ensuring a consistent user experience.",
+        "details": "I build production-ready Flutter applications from scratch with clean architecture, state management (Bloc, Provider, Cubit), and comprehensive testing. My apps feature responsive designs, smooth animations, and optimized performance for both platforms.",
+        "technologies": [
+            "Flutter",
+            "Dart",
+            "Firebase",
+            "Bloc",
+            "Provider",
+            "Clean Architecture"
+        ],
         "image": "smartphone"
     },
     {
         "name": "Feature Enhancement & Application Optimization",
         "proposal": "Enhance existing features and optimize app performance to boost user engagement, speed, and reliability.",
+        "details": "I analyze and improve existing codebases by refactoring legacy code, implementing modern state management patterns, optimizing database queries, reducing app size, and improving load times. I also add new features while maintaining code quality.",
+        "technologies": [
+            "Performance Profiling",
+            "Code Refactoring",
+            "State Management",
+            "Database Optimization"
+        ],
         "image": "performance"
     },
     {
         "name": "API & Backend Integration",
         "proposal": "Seamlessly connect your app with robust APIs and backend systems to enable efficient data flow and functionality.",
+        "details": "Expert integration of RESTful APIs, GraphQL, Firebase services (Firestore, Functions, Storage, Authentication), real-time data synchronization, and third-party services. I implement proper error handling, caching strategies, and offline support.",
+        "technologies": [
+            "Dio",
+            "HTTP",
+            "Firebase",
+            "REST APIs",
+            "GraphQL",
+            "WebSockets"
+        ],
         "image": "hierarchy"
     },
     {
         "name": "Payment Gateway & In-App Purchase Integration",
         "proposal": "Integrate secure and user-friendly payment gateways and in-app purchase systems to monetize your applications seamlessly.",
+        "details": "Implementation of payment solutions including Stripe, PayPal, in-app purchases for iOS and Android, subscription management, and secure transaction handling with proper validation and receipt verification.",
+        "technologies": [
+            "Stripe",
+            "PayPal",
+            "In-App Purchases",
+            "Subscription Management"
+        ],
         "image": "credit"
     },
     {
         "name": "App Maintenance & Technical Support",
         "proposal": "Provide ongoing app maintenance and technical support to ensure seamless operation, security, and compliance with the latest standards.",
+        "details": "Regular updates for new OS versions, bug fixes, security patches, dependency updates, crash monitoring with Firebase Crashlytics and Sentry, performance monitoring, and continuous improvement based on analytics.",
+        "technologies": [
+            "Firebase Crashlytics",
+            "Sentry",
+            "Analytics",
+            "CI/CD",
+            "Git"
+        ],
         "image": "setting"
     },
     {
         "name": "UI/UX Updates & Refactoring",
         "proposal": "Refresh and optimize app interfaces and user experiences to boost engagement, usability, and accessibility.",
+        "details": "Transform Figma designs into pixel-perfect Flutter UIs, implement Material Design and Cupertino widgets, create custom animations, ensure responsive layouts across all screen sizes, and add localization support for multiple languages.",
+        "technologies": [
+            "Figma",
+            "Material Design",
+            "Custom Animations",
+            "Responsive Design",
+            "Localization"
+        ],
         "image": "digital"
     },
     {
         "name": "App Deployment & Distribution",
         "proposal": "Manage the entire app deployment and distribution process across major app stores, ensuring compliance and smooth launches.",
+        "details": "Complete app store submission process for Google Play and App Store, including metadata optimization, screenshot preparation, compliance with store guidelines, version management, beta testing with TestFlight and Firebase App Distribution, and Shorebird for over-the-air updates.",
+        "technologies": [
+            "Google Play Console",
+            "App Store Connect",
+            "TestFlight",
+            "Firebase App Distribution",
+            "Shorebird"
+        ],
         "image": "arrow"
     },
     {
         "name": "Consulting & Project Planning",
         "proposal": "Offer expert guidance and structured project planning to help bring app ideas to fruition with strategic roadmaps and measurable goals.",
+        "details": "Comprehensive project analysis, technology stack recommendations, architecture design, timeline estimation, resource planning, risk assessment, and agile methodology implementation using tools like Jira, ClickUp, and Notion.",
+        "technologies": [
+            "Jira",
+            "ClickUp",
+            "Notion",
+            "Agile Methodologies",
+            "Technical Documentation"
+        ],
         "image": "solution"
     }
 ]

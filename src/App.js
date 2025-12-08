@@ -1,7 +1,7 @@
 import {
   Box,
   Container,
-  CssBaseline,
+  CssBaseline
 } from '@mui/material'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -23,6 +23,7 @@ import Blog from "./pages/blog/blog.js"
 import Experiences from "./pages/experiences/experiences.js"
 import Main from "./pages/main/main.js"
 import Projects from "./pages/projects/projects.js"
+import Publications from "./pages/publications/publications.js"
 import FloatingActionButton from './utils/floatingActionButton.js'
 
 const App = () => {
@@ -50,12 +51,12 @@ const App = () => {
               <ResponsiveAppBar />
 
               <Routes>
-                <Route exact path='/' element={<Main />} />
-                <Route exact path='/experiences' element={<Experiences />} />
-                <Route exact path='/projects' element={<Projects />} />
-                <Route exact path='/blog' element={<Blog />} />
-
-                <Route path="*" element={<Navigate replace to="/" />} />
+                <Route path="/" element={<Main />} />
+                <Route path="/experiences" element={<Experiences />} />
+                <Route path="/publications" element={<Publications />} />
+                <Route path="/blog" element={<Blog />} />
+                <Route path="/projects" element={<Projects />} />
+                <Route path="*" element={<Navigate to="/" />} />
               </Routes>
               <Footer />
               <FloatingActionButton />

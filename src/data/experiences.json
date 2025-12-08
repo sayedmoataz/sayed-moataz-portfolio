@@ -4,10 +4,10 @@
             "job_title": "Flutter Developer",
             "company_name": "P***** **** L.L.C",
             "location": "Remote, UAE",
-            "employment_type": "Full-time",
+            "employment_type": "Full-Time",
             "start_date": "Mar 2024",
             "end_date": "Present",
-            "description": "Developed a real estate mobile app using Flutter, integrating APIs, Google Maps, and Firebase (Notification, Crashlytics, Analytics). Designed responsive UI from Figma, supporting multilingual localization. Applied clean architecture and Bloc for scalable, maintainable code. Managed tasks with Jira and collaborated via Slack for efficient remote work.",
+            "description": "Built real estate apps with Flutter, integrating APIs, Google Maps, and Firebase (Crashlytics, Analytics). Designed responsive UI from Figma, supporting localization for multilingual users. Used clean architecture and Bloc for maintainable, scalable code. Managed tasks with Jira and collaborated via Slack for efficient remote work.",
             "technologies_used": [
                 "Flutter",
                 "Dart",
@@ -19,11 +19,8 @@
                 "Slack",
                 "Figma",
                 "Localization",
-                "Admob",
-                "Flavors",
-                "Features Discovery",
-                "Printing",
-                "PDF"
+                "Crashlytics",
+                "Analytics"
             ],
             "company_website": "",
             "relevant_projects": []
@@ -32,10 +29,10 @@
             "job_title": "Flutter Developer",
             "company_name": "S****a",
             "location": "Remote, KSA",
-            "employment_type": "Part-time",
+            "employment_type": "Part-Time",
             "start_date": "Mar 2024",
             "end_date": "Present",
-            "description": "Enhanced user, delivery, and vendor apps using Flutter, improving responsiveness with real-time data streams. Developed a new vendor app from scratch, applying MVVM architecture with Provider. Integrated Branch.io for deep linking and Sentry for error tracking. Conducted testing and bug fixes to ensure app reliability.",
+            "description": "Enhanced user and delivery apps and developed a new vendor app using Flutter. Implemented streams for real-time data, improving app responsiveness. Applied MVVM architecture with Provider for modular code. Ensured app reliability through testing and bug fixes. Added features with Branch.io for deep linking and Sentry for error tracking.",
             "technologies_used": [
                 "Flutter",
                 "Dart",
@@ -44,9 +41,7 @@
                 "Branch.io",
                 "Sentry",
                 "Streams",
-                "Payment",
-                "Wallet",
-                "Subscription"
+                "Testing"
             ],
             "company_website": "",
             "relevant_projects": []
@@ -55,53 +50,53 @@
             "job_title": "Flutter Developer",
             "company_name": "Metachain Technologies Inc.",
             "location": "Remote, Canada",
-            "employment_type": "Full-time",
+            "employment_type": "Full-Time",
             "start_date": "Nov 2023",
-            "end_date": "Mar 2025",
-            "description": "Developed many mobile applications using Flutter for AI and blockchain use cases, integrating Google Cloud APIs (Big Query, Gmail API, Calendar API) and GPT Assistants API for advanced functionality. Implemented automation testing with Selenium and TestNG in Java, improving testing efficiency. Collaborated with backend, ML, DevOps, and design teams to deliver features on time. Wrote technical documentation in Markdown to streamline onboarding. Managed tasks using ClickUp and Notion for efficient project tracking.",
+            "end_date": "Mar 2024",
+            "description": "Developed 5+ mobile apps using Flutter. Collaborated with backend, ML, DevOps, and design teams for feature delivery. Wrote technical documentation in Markdown to aid onboarding. Managed tasks with ClickUp and Notion for timely feature delivery.",
             "technologies_used": [
                 "Flutter",
                 "Dart",
-                "Google Cloud APIs",
-                "Big Query",
-                "Gmail API",
-                "Calendar API",
-                "GPT Assistants API",
-                "Vector Store",
-                "Threads",
-                "Selenium",
-                "TestNG",
-                "Java",
                 "Firebase",
-                "Google Maps",
                 "Git",
                 "ClickUp",
                 "Notion",
                 "Markdown",
-                "CI/CD",
-                "Docker",
-                "AWS",
-                "GCP",
-                "Azure"
+                "Backend Integration",
+                "ML Integration"
             ],
             "company_website": "https://mcti.io",
             "relevant_projects": []
         },
         {
+            "job_title": "Military Service",
+            "company_name": "Egyptian Armed Forces",
+            "location": "Egypt",
+            "employment_type": "Mandatory Service",
+            "start_date": "Oct 2022",
+            "end_date": "Oct 2023",
+            "description": "Completed mandatory military service, developing discipline, leadership, and teamwork skills. Managed responsibilities under pressure while maintaining commitment to personal and professional growth.",
+            "technologies_used": [],
+            "company_website": "",
+            "relevant_projects": []
+        },
+        {
             "job_title": "Flutter Developer",
-            "company_name": "Zefaaf Platform",
-            "location": "Remote, Netherland",
-            "employment_type": "Freelance",
-            "start_date": "Sep 2023",
-            "end_date": "Nov 2023",
-            "description": "Fixed 50+ critical bugs and refactored 50% of the codebase, improving app performance. Collaborated with backend team to integrate APIs for seamless data flow. Implemented new UI/UX designs to enhance user engagement. Ensured code quality through rigorous testing and debugging.",
+            "company_name": "Algoriza",
+            "location": "Remote, Egypt",
+            "employment_type": "Internship",
+            "start_date": "Jul 2022",
+            "end_date": "Sep 2022",
+            "description": "Gained hands-on experience in Flutter, focusing on state management, API integration, and local storage. Assisted in developing mobile applications, enhancing skills in Dart and app architecture. Contributed to team projects, learning agile workflows and version control with Git.",
             "technologies_used": [
                 "Flutter",
                 "Dart",
-                "API Integration",
-                "Git"
+                "SQFlite",
+                "Git",
+                "State Management",
+                "API Integration"
             ],
-            "company_website": "https://zefaaf.net",
+            "company_website": "https://algoriza.com/",
             "relevant_projects": []
         },
         {
@@ -121,26 +116,8 @@
                 "Git",
                 "CI/CD",
                 "App Distribution"
-
             ],
             "company_website": "",
-            "relevant_projects": []
-        },
-        {
-            "job_title": "Flutter Developer",
-            "company_name": "Algoriza",
-            "location": "Remote, Egypt",
-            "employment_type": "Internship",
-            "start_date": "Jul 2022",
-            "end_date": "Sep 2022",
-            "description": "Gained hands-on experience in Flutter, focusing on state management, API integration, and local storage. Assisted in developing mobile applications, enhancing skills in Dart and app architecture. Contributed to team projects, learning agile workflows and version control with Git.",
-            "technologies_used": [
-                "Flutter",
-                "Dart",
-                "SQFlite",
-                "Git"
-            ],
-            "company_website": "https://algoriza.com/",
             "relevant_projects": []
         },
         {
@@ -155,10 +132,29 @@
                 "C/C++",
                 "Java",
                 "Python",
-                "Data Structures", 
+                "Data Structures",
                 "Algorithms"
             ],
             "company_website": "https://www.master-micro.com/",
+            "relevant_projects": []
+        },
+        {
+            "job_title": "Bachelor's Degree in Computer Science",
+            "company_name": "Helwan University",
+            "location": "Cairo, Egypt",
+            "employment_type": "Education",
+            "start_date": "Sep 2018",
+            "end_date": "Jun 2022",
+            "description": "Faculty of Computers and Artificial Intelligence. Studied Mobile Application Development, Data Structures, Algorithms, and Software Engineering. Graduation Project: Augmented Reality application using Flutter and Unity 3D (A Grade).",
+            "technologies_used": [
+                "Flutter",
+                "Unity 3D",
+                "Augmented Reality",
+                "Data Structures",
+                "Algorithms",
+                "Software Engineering"
+            ],
+            "company_website": "https://www.helwan.edu.eg/",
             "relevant_projects": []
         }
     ]

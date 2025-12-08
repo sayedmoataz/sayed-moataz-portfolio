@@ -6,7 +6,7 @@ import {
 } from '@mui/material'
 import Lottie from "lottie-react"
 import { useSnackbar } from 'notistack'
-import React, {
+import {
     useContext,
     useState
 } from 'react'
@@ -27,17 +27,32 @@ const Contact = (props) => {
     const [email, setEmail] = useState('')
     const [portfolio, setPortfolio] = useState('')
     const [message, setMessage] = useState('')
+    const [loading, setLoading] = useState(false)
 
     const handleSubmit = (e) => {
         e.preventDefault()
+        setLoading(true)
 
         emailjs.send(data.serviceID, data.templateID, {
             name: name,
             from_email: email,
             message: `${portfolio}\n${message}`,
         }, data.publicKey)
-            .then(() => enqueueSnackbar('The message was sent!', { variant: 'success' }))
-            .catch(err => alert(err.message))
+            .then(() => {
+                enqueueSnackbar('Message sent successfully! I\'ll get back to you soon.', { variant: 'success' })
+                // Clear form
+                setName('')
+                setEmail('')
+                setPortfolio('')
+                setMessage('')
+            })
+            .catch(err => {
+                console.error('EmailJS Error:', err)
+                enqueueSnackbar(`Failed to send message: ${err.text || err.message}`, { variant: 'error' })
+            })
+            .finally(() => {
+                setLoading(false)
+            })
     }
 
     return <Box data-aos="fade-up" textAlign={"center"} >
@@ -132,8 +147,9 @@ const Contact = (props) => {
                         variant="contained"
                         type="submit"
                         size='large'
+                        disabled={loading}
                         sx={{ width: { xs: 1, md: 1 / 2 } }}
-                    >Submit</ColorButton>
+                    >{loading ? 'Sending...' : 'Submit'}</ColorButton>
                 </form>
             </Box>
             <Box

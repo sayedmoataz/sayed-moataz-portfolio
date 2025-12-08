@@ -9,6 +9,10 @@
             "title": "Experiences"
         },
         {
+            "link": "/publications",
+            "title": "Publications"
+        },
+        {
             "link": "/blog",
             "title": "Blog"
         }
@@ -21,7 +25,11 @@
         {
             "link": "/experiences",
             "title": "Experiences"
-        },        
+        },
+        {
+            "link": "/publications",
+            "title": "Publications"
+        },
         {
             "link": "/blog",
             "title": "Blog"

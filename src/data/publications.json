@@ -1,0 +1,76 @@
+{
+    "platforms": [
+        {
+            "name": "pub.dev",
+            "title": "Flutter Packages",
+            "url": "https://pub.dev/packages/performance_monitor",
+            "icon": "SiFlutter",
+            "color": "#02569B",
+            "description": "Published Flutter packages and contributions to the Flutter ecosystem",
+            "stats": {
+                "label": "Package",
+                "value": "1"
+            }
+        },
+        {
+            "name": "Medium",
+            "title": "Technical Articles",
+            "url": "https://medium.com/@sayedmoataz9",
+            "icon": "FaMedium",
+            "color": "#000000",
+            "description": "In-depth technical articles on Flutter, mobile development, and software engineering",
+            "stats": {
+                "label": "Articles",
+                "value": "5+"
+            }
+        },
+        {
+            "name": "dev.to",
+            "title": "Developer Community",
+            "url": "https://dev.to/sayedmoataz",
+            "icon": "FaDev",
+            "color": "#0A0A0A",
+            "description": "Community posts, tutorials, and discussions on modern development practices",
+            "stats": {
+                "label": "Posts",
+                "value": "3+"
+            }
+        },
+        {
+            "name": "LinkedIn",
+            "title": "Professional Insights",
+            "url": "https://www.linkedin.com/in/saayeedmdawoud/",
+            "icon": "FaLinkedin",
+            "color": "#0A66C2",
+            "description": "Professional articles, career insights, and industry perspectives",
+            "stats": {
+                "label": "Articles",
+                "value": "10+"
+            }
+        },
+        {
+            "name": "GitHub",
+            "title": "Open Source",
+            "url": "https://github.com/sayedmoataz",
+            "icon": "FaGithub",
+            "color": "#181717",
+            "description": "Open source contributions, code samples, and collaborative projects",
+            "stats": {
+                "label": "Repositories",
+                "value": "20+"
+            }
+        },
+        {
+            "name": "Stack Overflow",
+            "title": "Community Help",
+            "url": "https://stackoverflow.com/users/11287483/saayeed-m-daawoud",
+            "icon": "FaStackOverflow",
+            "color": "#F58025",
+            "description": "Helping developers solve problems and sharing knowledge",
+            "stats": {
+                "label": "Reputation",
+                "value": "400+"
+            }
+        }
+    ]
+}
