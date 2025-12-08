@@ -17,6 +17,7 @@ import {
 } from "react-router-dom"
 
 import Footer from './components/footer/footer.js'
+import LoadingScreen from './components/loading/LoadingScreen.js'
 import ResponsiveAppBar from './components/navbar/navbar.js'
 import { AppProvider } from './context/context/context.js'
 import Blog from "./pages/blog/blog.js"
@@ -27,6 +28,7 @@ import Publications from "./pages/publications/publications.js"
 import FloatingActionButton from './utils/floatingActionButton.js'
 
 const App = () => {
+  const [loading, setLoading] = React.useState(true)
 
   useEffect(() => {
     console.clear()
@@ -38,7 +40,18 @@ const App = () => {
       font-family:Noto Sans, sans-serif;`)
 
     Aos.init({ duration: 1000 })
+
+    // Hide loading screen after 2 seconds
+    const timer = setTimeout(() => {
+      setLoading(false)
+    }, 2000)
+
+    return () => clearTimeout(timer)
   }, [])
+
+  if (loading) {
+    return <LoadingScreen />
+  }
 
   return <AppProvider>
     <React.Fragment>
