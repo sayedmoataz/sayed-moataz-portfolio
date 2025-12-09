@@ -29,7 +29,8 @@ const Publications = () => {
             id="Publications"
             sx={{
                 width: '100%',
-                py: { xs: 5, md: 10 },
+                pt: { xs: 12, md: 15 },
+                pb: { xs: 5, md: 10 },
                 px: { xs: 2, md: 5 }
             }}
         >

@@ -30,11 +30,6 @@ const Main = () => <React.Fragment>
     <Toolbar />
     <Services />
 
-    <div id='Contact'></div>
-    <Toolbar />
-    <Toolbar />
-    <Contact title='Get in touch' />
-
     <Toolbar />
 </React.Fragment>
 

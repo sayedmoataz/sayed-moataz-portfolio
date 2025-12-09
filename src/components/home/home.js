@@ -122,11 +122,6 @@ const Home = () => {
                     alignItems="center"
                 >
                     <CustomizedMenus />
-                    <ColorBorderButton
-                        variant="outlined"
-                        size="large"
-                        href='#Contact'
-                    >Contact</ColorBorderButton>
                 </Stack>
             </Stack>
             <Box

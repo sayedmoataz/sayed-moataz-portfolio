@@ -24,102 +24,137 @@
     },
     {
         "category": "Mobile Development",
-        "skills": [
+        "subcategories": [
             {
-                "name": "Flutter",
-                "icon": "SiFlutter",
-                "proficiency": 95,
-                "color": "#47C5FB"
+                "name": "Framework",
+                "skills": [
+                    {
+                        "name": "Flutter",
+                        "icon": "SiFlutter",
+                        "proficiency": 95,
+                        "color": "#47C5FB"
+                    }
+                ]
             },
             {
-                "name": "Firebase",
-                "icon": "SiFirebase",
-                "proficiency": 90,
-                "color": "#FCCA3F"
+                "name": "State Management",
+                "skills": [
+                    {
+                        "name": "Bloc",
+                        "icon": "SiBloc",
+                        "proficiency": 90,
+                        "color": "#08D0BB"
+                    },
+                    {
+                        "name": "Provider",
+                        "icon": "SiFlutter",
+                        "proficiency": 85,
+                        "color": "#47C5FB"
+                    },
+                    {
+                        "name": "Cubit",
+                        "icon": "SiBloc",
+                        "proficiency": 85,
+                        "color": "#08D0BB"
+                    },
+                    {
+                        "name": "GetX",
+                        "icon": "SiFlutter",
+                        "proficiency": 80,
+                        "color": "#6311B5"
+                    }
+                ]
             },
             {
-                "name": "Bloc",
-                "icon": "SiBloc",
-                "proficiency": 90,
-                "color": "#08D0BB"
+                "name": "Networking",
+                "skills": [
+                    {
+                        "name": "Dio",
+                        "icon": "FaNetworkWired",
+                        "proficiency": 90,
+                        "color": "#00D9FF"
+                    },
+                    {
+                        "name": "HTTP",
+                        "icon": "FaServer",
+                        "proficiency": 90,
+                        "color": "#005A9C"
+                    }
+                ]
             },
             {
-                "name": "Provider",
-                "icon": "SiFlutter",
-                "proficiency": 85,
-                "color": "#47C5FB"
+                "name": "Local Storage",
+                "skills": [
+                    {
+                        "name": "SQFlite",
+                        "icon": "SiSqlite",
+                        "proficiency": 85,
+                        "color": "#3095D6"
+                    },
+                    {
+                        "name": "Hive",
+                        "icon": "SiHiveBlockchain",
+                        "proficiency": 80,
+                        "color": "#FCEE21"
+                    },
+                    {
+                        "name": "Shared Preferences",
+                        "icon": "FaDatabase",
+                        "proficiency": 90,
+                        "color": "#FF6B6B"
+                    }
+                ]
             },
             {
-                "name": "Cubit",
-                "icon": "SiBloc",
-                "proficiency": 85,
-                "color": "#08D0BB"
+                "name": "Backend Services",
+                "skills": [
+                    {
+                        "name": "Firebase",
+                        "icon": "SiFirebase",
+                        "proficiency": 90,
+                        "color": "#FCCA3F"
+                    }
+                ]
             },
             {
-                "name": "GetX",
-                "icon": "SiFlutter",
-                "proficiency": 80,
-                "color": "#6311B5"
+                "name": "Maps & Location",
+                "skills": [
+                    {
+                        "name": "Google Maps",
+                        "icon": "SiGooglemaps",
+                        "proficiency": 85,
+                        "color": "#4285F4"
+                    },
+                    {
+                        "name": "Google Places",
+                        "icon": "FaMapMarkerAlt",
+                        "proficiency": 85,
+                        "color": "#EA4335"
+                    }
+                ]
             },
             {
-                "name": "Google Maps",
-                "icon": "SiGooglemaps",
-                "proficiency": 85,
-                "color": "#4285F4"
-            },
-            {
-                "name": "Google Places",
-                "icon": "FaMapMarkerAlt",
-                "proficiency": 85,
-                "color": "#EA4335"
-            },
-            {
-                "name": "Dio",
-                "icon": "FaNetworkWired",
-                "proficiency": 90,
-                "color": "#00D9FF"
-            },
-            {
-                "name": "HTTP",
-                "icon": "FaServer",
-                "proficiency": 90,
-                "color": "#005A9C"
-            },
-            {
-                "name": "SQFlite",
-                "icon": "SiSqlite",
-                "proficiency": 85,
-                "color": "#3095D6"
-            },
-            {
-                "name": "Hive",
-                "icon": "SiHiveBlockchain",
-                "proficiency": 80,
-                "color": "#FCEE21"
-            },
-            {
-                "name": "Shared Preferences",
-                "icon": "FaDatabase",
-                "proficiency": 90,
-                "color": "#FF6B6B"
-            },
-            {
-                "name": "Branch.io",
-                "icon": "FaCodeBranch",
-                "proficiency": 75,
-                "color": "#00C7B7"
-            },
-            {
-                "name": "Sentry",
-                "icon": "SiSentry",
-                "proficiency": 80,
-                "color": "#362D59"
-            },
-            {
-                "name": "Shorebird",
-                "icon": "FaFeatherAlt",
-                "proficiency": 70,
-                "color": "#4A90E2"
+                "name": "Third Party Services",
+                "skills": [
+                    {
+                        "name": "Branch.io",
+                        "icon": "FaCodeBranch",
+                        "proficiency": 75,
+                        "color": "#00C7B7"
+                    },
+                    {
+                        "name": "Sentry",
+                        "icon": "SiSentry",
+                        "proficiency": 80,
+                        "color": "#362D59"
+                    },
+                    {
+                        "name": "Shorebird",
+                        "icon": "FaFeatherAlt",
+                        "proficiency": 70,
+                        "color": "#4A90E2"
+                    }
+                ]
             }
         ]
     },
@@ -160,66 +195,81 @@
     },
     {
         "category": "Tools",
-        "skills": [
+        "subcategories": [
             {
-                "name": "Git",
-                "icon": "FaGitAlt",
-                "proficiency": 90,
-                "color": "#DE4C36"
+                "name": "Version Control",
+                "skills": [
+                    {
+                        "name": "Git",
+                        "icon": "FaGitAlt",
+                        "proficiency": 90,
+                        "color": "#DE4C36"
+                    },
+                    {
+                        "name": "GitHub",
+                        "icon": "FaGithub",
+                        "proficiency": 90,
+                        "color": "#FFFFFF"
+                    }
+                ]
             },
             {
-                "name": "GitHub",
-                "icon": "FaGithub",
-                "proficiency": 90,
-                "color": "#FFFFFF"
+                "name": "IDEs",
+                "skills": [
+                    {
+                        "name": "VS Code",
+                        "icon": "SiVisualstudiocode",
+                        "proficiency": 95,
+                        "color": "#199FDF"
+                    },
+                    {
+                        "name": "Android Studio",
+                        "icon": "SiAndroidstudio",
+                        "proficiency": 85,
+                        "color": "#4EDF8E"
+                    },
+                    {
+                        "name": "Xcode",
+                        "icon": "SiXcode",
+                        "proficiency": 80,
+                        "color": "#03B1EE"
+                    }
+                ]
             },
             {
-                "name": "VS Code",
-                "icon": "SiVisualstudiocode",
-                "proficiency": 95,
-                "color": "#199FDF"
-            },
-            {
-                "name": "Android Studio",
-                "icon": "SiAndroidstudio",
-                "proficiency": 85,
-                "color": "#4EDF8E"
-            },
-            {
-                "name": "Xcode",
-                "icon": "SiXcode",
-                "proficiency": 80,
-                "color": "#03B1EE"
-            },
-            {
-                "name": "Figma",
-                "icon": "FaFigma",
-                "proficiency": 75,
-                "color": "#F24E1E"
-            },
-            {
-                "name": "Jira",
-                "icon": "FaJira",
-                "proficiency": 85,
-                "color": "#0052CC"
-            },
-            {
-                "name": "Slack",
-                "icon": "FaSlack",
-                "proficiency": 90,
-                "color": "#4A154B"
-            },
-            {
-                "name": "ClickUp",
-                "icon": "SiClickup",
-                "proficiency": 80,
-                "color": "#7B68EE"
-            },
-            {
-                "name": "Notion",
-                "icon": "SiNotion",
-                "proficiency": 75,
-                "color": "#000000"
+                "name": "Design & Collaboration",
+                "skills": [
+                    {
+                        "name": "Figma",
+                        "icon": "FaFigma",
+                        "proficiency": 75,
+                        "color": "#F24E1E"
+                    },
+                    {
+                        "name": "Jira",
+                        "icon": "FaJira",
+                        "proficiency": 85,
+                        "color": "#0052CC"
+                    },
+                    {
+                        "name": "Slack",
+                        "icon": "FaSlack",
+                        "proficiency": 90,
+                        "color": "#4A154B"
+                    },
+                    {
+                        "name": "ClickUp",
+                        "icon": "SiClickup",
+                        "proficiency": 80,
+                        "color": "#7B68EE"
+                    },
+                    {
+                        "name": "Notion",
+                        "icon": "SiNotion",
+                        "proficiency": 75,
+                        "color": "#000000"
+                    }
+                ]
             }
         ]
     },
@@ -289,54 +339,64 @@
     },
     {
         "category": "Technical Reading",
-        "skills": [
+        "subcategories": [
             {
-                "name": "Operating Systems (Stallings)",
-                "icon": "FaBookOpen",
-                "proficiency": 100,
-                "color": "#2ECC71"
+                "name": "Completed",
+                "skills": [
+                    {
+                        "name": "Operating Systems (Stallings)",
+                        "icon": "FaBookOpen",
+                        "proficiency": 100,
+                        "color": "#2ECC71"
+                    },
+                    {
+                        "name": "Data Structures in C (Weiss)",
+                        "icon": "FaBookOpen",
+                        "proficiency": 100,
+                        "color": "#2ECC71"
+                    }
+                ]
             },
             {
-                "name": "Data Structures in C (Weiss)",
-                "icon": "FaBookOpen",
-                "proficiency": 100,
-                "color": "#2ECC71"
-            },
-            {
-                "name": "Head First Design Patterns",
-                "icon": "FaBook",
-                "proficiency": 30,
-                "color": "#E74C3C"
-            },
-            {
-                "name": "Grokking Data Structures",
-                "icon": "FaBook",
-                "proficiency": 20,
-                "color": "#E74C3C"
-            },
-            {
-                "name": "Grokking Algorithms",
-                "icon": "FaBook",
-                "proficiency": 25,
-                "color": "#E74C3C"
-            },
-            {
-                "name": "Head First OOP",
-                "icon": "FaBook",
-                "proficiency": 15,
-                "color": "#E74C3C"
-            },
-            {
-                "name": "Good Code, Bad Code",
-                "icon": "FaBook",
-                "proficiency": 10,
-                "color": "#E74C3C"
-            },
-            {
-                "name": "Clean Code",
-                "icon": "FaBook",
-                "proficiency": 20,
-                "color": "#E74C3C"
+                "name": "In Progress",
+                "skills": [
+                    {
+                        "name": "Head First Design Patterns",
+                        "icon": "FaBook",
+                        "proficiency": 30,
+                        "color": "#E74C3C"
+                    },
+                    {
+                        "name": "Grokking Data Structures",
+                        "icon": "FaBook",
+                        "proficiency": 20,
+                        "color": "#E74C3C"
+                    },
+                    {
+                        "name": "Grokking Algorithms",
+                        "icon": "FaBook",
+                        "proficiency": 25,
+                        "color": "#E74C3C"
+                    },
+                    {
+                        "name": "Head First OOP",
+                        "icon": "FaBook",
+                        "proficiency": 15,
+                        "color": "#E74C3C"
+                    },
+                    {
+                        "name": "Good Code, Bad Code",
+                        "icon": "FaBook",
+                        "proficiency": 10,
+                        "color": "#E74C3C"
+                    },
+                    {
+                        "name": "Clean Code",
+                        "icon": "FaBook",
+                        "proficiency": 20,
+                        "color": "#E74C3C"
+                    }
+                ]
             }
         ]
     }

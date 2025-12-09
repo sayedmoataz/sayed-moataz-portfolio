@@ -1,5 +1,6 @@
 import {
     Box,
+    Chip,
     Grid,
     LinearProgress,
     Stack,
@@ -136,7 +137,8 @@ const Skills = () => {
             px={{ xs: 2, md: 5 }}
         >
             {data.map((category, categoryIndex) => (
-                <Box key={categoryIndex} mb={6}>
+                <Box key={categoryIndex} mb={8}>
+                    {/* Category Title */}
                     <Typography
                         variant="h4"
                         gutterBottom
@@ -144,23 +146,78 @@ const Skills = () => {
                         sx={{
                             color: state.color.secondary,
                             fontWeight: 700,
-                            fontSize: { xs: 20, sm: 24, md: 28 },
-                            mb: 3,
-                            textAlign: 'left'
+                            fontSize: { xs: 22, sm: 26, md: 32 },
+                            mb: 4,
+                            textAlign: 'left',
+                            position: 'relative',
+                            display: 'inline-block',
+                            '&::after': {
+                                content: '""',
+                                position: 'absolute',
+                                bottom: -8,
+                                left: 0,
+                                width: '60px',
+                                height: '4px',
+                                backgroundColor: state.color.primary,
+                                borderRadius: '2px'
+                            }
                         }}
                     >
                         {category.category}
                     </Typography>
-                    <Grid container spacing={3}>
-                        {category.skills.map((skill, skillIndex) => (
-                            <Grid item xs={12} sm={6} md={4} key={skillIndex}>
-                                <AnimatedProgressBar
-                                    skill={skill}
-                                    delay={skillIndex * 100}
-                                />
-                            </Grid>
-                        ))}
-                    </Grid>
+
+                    {/* Check if category has subcategories */}
+                    {category.subcategories ? (
+                        // Render subcategories
+                        <Box mt={4}>
+                            {category.subcategories.map((subcategory, subIndex) => (
+                                <Box key={subIndex} mb={5}>
+                                    {/* Subcategory Badge */}
+                                    <Chip
+                                        label={subcategory.name}
+                                        sx={{
+                                            mb: 3,
+                                            bgcolor: `${state.color.primary}20`,
+                                            color: state.color.light,
+                                            border: `1px solid ${state.color.primary}`,
+                                            fontFamily: '"Noto Sans", sans-serif',
+                                            fontWeight: 600,
+                                            fontSize: { xs: 13, md: 15 },
+                                            px: 1,
+                                            py: 2.5,
+                                            '&:hover': {
+                                                bgcolor: `${state.color.primary}30`,
+                                            }
+                                        }}
+                                    />
+
+                                    {/* Skills Grid */}
+                                    <Grid container spacing={3}>
+                                        {subcategory.skills.map((skill, skillIndex) => (
+                                            <Grid item xs={12} sm={6} md={4} key={skillIndex}>
+                                                <AnimatedProgressBar
+                                                    skill={skill}
+                                                    delay={skillIndex * 100}
+                                                />
+                                            </Grid>
+                                        ))}
+                                    </Grid>
+                                </Box>
+                            ))}
+                        </Box>
+                    ) : (
+                        // Render skills directly if no subcategories
+                        <Grid container spacing={3} mt={2}>
+                            {category.skills.map((skill, skillIndex) => (
+                                <Grid item xs={12} sm={6} md={4} key={skillIndex}>
+                                    <AnimatedProgressBar
+                                        skill={skill}
+                                        delay={skillIndex * 100}
+                                    />
+                                </Grid>
+                            ))}
+                        </Grid>
+                    )}
                 </Box>
             ))}
         </Box>

@@ -5,7 +5,7 @@
             "company_name": "P***** **** L.L.C",
             "location": "Remote, UAE",
             "employment_type": "Full-Time",
-            "start_date": "Mar 2024",
+            "start_date": "Mar 2025",
             "end_date": "Present",
             "description": "Built real estate apps with Flutter, integrating APIs, Google Maps, and Firebase (Crashlytics, Analytics). Designed responsive UI from Figma, supporting localization for multilingual users. Used clean architecture and Bloc for maintainable, scalable code. Managed tasks with Jira and collaborated via Slack for efficient remote work.",
             "technologies_used": [
@@ -27,11 +27,11 @@
         },
         {
             "job_title": "Flutter Developer",
-            "company_name": "S****a",
+            "company_name": "Sonbla",
             "location": "Remote, KSA",
             "employment_type": "Part-Time",
-            "start_date": "Mar 2024",
-            "end_date": "Present",
+            "start_date": "Mar 2025",
+            "end_date": "Dec 2025",
             "description": "Enhanced user and delivery apps and developed a new vendor app using Flutter. Implemented streams for real-time data, improving app responsiveness. Applied MVVM architecture with Provider for modular code. Ensured app reliability through testing and bug fixes. Added features with Branch.io for deep linking and Sentry for error tracking.",
             "technologies_used": [
                 "Flutter",
@@ -43,7 +43,7 @@
                 "Streams",
                 "Testing"
             ],
-            "company_website": "",
+            "company_website": "https://sonbla.app/",
             "relevant_projects": []
         },
         {
@@ -52,7 +52,7 @@
             "location": "Remote, Canada",
             "employment_type": "Full-Time",
             "start_date": "Nov 2023",
-            "end_date": "Mar 2024",
+            "end_date": "Mar 2025",
             "description": "Developed 5+ mobile apps using Flutter. Collaborated with backend, ML, DevOps, and design teams for feature delivery. Wrote technical documentation in Markdown to aid onboarding. Managed tasks with ClickUp and Notion for timely feature delivery.",
             "technologies_used": [
                 "Flutter",
@@ -74,7 +74,7 @@
             "location": "Egypt",
             "employment_type": "Mandatory Service",
             "start_date": "Oct 2022",
-            "end_date": "Oct 2023",
+            "end_date": "Dec 2023",
             "description": "Completed mandatory military service, developing discipline, leadership, and teamwork skills. Managed responsibilities under pressure while maintaining commitment to personal and professional growth.",
             "technologies_used": [],
             "company_website": "",
