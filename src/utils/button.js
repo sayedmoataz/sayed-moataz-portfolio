@@ -1,9 +1,9 @@
-import styled from '@mui/material/styles/styled'
 import { Button } from '@mui/material'
+import styled from '@mui/material/styles/styled'
 
 export const ColorButton = styled(Button)(() => ({
-    color: '#FAFAFA',
-    backgroundColor: '#40718D',
+    color: '#FFFFFF',
+    backgroundColor: '#2C5A73',
     fontWeight: 700,
     width: '100%',
     fontFamily: '"Noto Sans", sans-serif',
@@ -11,13 +11,13 @@ export const ColorButton = styled(Button)(() => ({
 }))
 
 export const ColorBorderButton = styled(Button)(() => ({
-    color: '#40718D',
-    borderColor: '#40718D',
+    color: '#2C5A73',
+    borderColor: '#2C5A73',
     fontWeight: 700,
     fontFamily: '"Noto Sans", sans-serif',
     '&:hover': {
         backgroundColor: '#368F80',
         borderColor: '#368F80',
-        color: '#FAFAFA',
+        color: '#FFFFFF',
     },
 }))

@@ -1,5 +1,5 @@
 \documentclass[letterpaper,11pt]{article}
-\usepackage[left=0.5in, right=0.5in, top=0.3in, bottom=0.5in]{geometry}
+\usepackage[left=0.4in, right=0.4in, top=0.25in, bottom=0.4in]{geometry}
 \usepackage{enumitem}
 \usepackage[usenames,dvipsnames]{xcolor}
 \definecolor{linkcolour}{rgb}{0,0.2,0.6}
@@ -60,18 +60,18 @@
   \vspace{-4pt}\raggedright\Large\bfseries
 }{}{0em}{}[\color{black}\titlerule \vspace{4pt}]
 
-\titlespacing*{\section}{0pt}{-6pt}{-3pt}
+\titlespacing*{\section}{0pt}{-6.7pt}{0pt}
 
 \renewcommand{\resumeSubheading}[4]{
   \vspace{-1mm}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
-    \end{tabular*}\vspace{2pt}
+    \end{tabular*}\vspace{1pt}
 }
 
 \newcommand{\resumeItem}[2]{
   \item\small\justifying{
-    {#2 \vspace{1pt}}
+    {#2 \vspace{0pt}}
   }
 }
 
@@ -81,19 +81,19 @@
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, label=--]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}[label=-, itemsep=0pt]}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
 
 \definecolor{mylinkcolor}{RGB}{0,71,171}
 \definecolor{darkblue}{RGB}{0,0,128}
 \definecolor{darkred}{RGB}{139,0,0}
 
 \begin{document}
-\vspace*{-0.7in}
+\vspace*{-0.8in}
 \noindent
 \begin{minipage}[c]{0.2\textwidth}
     \raggedright
     \small
-    Helwan, Cairo \\
+    Cairo, Egypt \\
     \begin{tabular}{@{}c l@{}}
     \href{tel:+201090461339}{{\faPhone*}}&\hspace{0.2cm}\href{tel:+201090461339}{+(20)1090461339} \\
     \href{mailto:sayedmoataz9@gmail.com}{{\faEnvelope}}&\hspace{0.2cm}\href{mailto:sayedmoataz9@gmail.com}{sayedmoataz9@gmail.com}\\
@@ -103,7 +103,8 @@
 \begin{minipage}[c]{0.52\textwidth}
     \centering
     {\Huge \textbf{\textit{{Sayed Moataz}}}} \\
-    {\vspace{0.3cm}\Large Flutter Developer}
+    {\vspace{0.2cm}\Large Flutter Developer} \\
+    {\vspace{0.13cm}\small \href{https://sayed-moataz-portfolio-five.vercel.app/}{sayed-moataz-portfolio.vercel.app}}
 \end{minipage}%
 \hfill
 \begin{minipage}[c]{0.25\textwidth}
@@ -117,98 +118,83 @@
     \end{tabular}
 \end{minipage}
 
+\vspace{.1cm}
 % Summary
 \section*{Summary}
 \begin{itemize}[leftmargin=0pt]
-    \item Experienced Flutter Developer with a proven track record of building high-quality, scalable mobile applications for real estate, e-commerce, and educational platforms. Skilled in clean architecture, state management, and API integration, with a focus on responsive design and user experience. Adept at collaborating remotely with cross-functional teams using agile methodologies and modern tools like Jira, Slack, and Git.
+    \item Experienced Flutter Developer with 3+ years building scalable mobile apps for real estate, e-commerce, and education. Expert in clean architecture, state management (Bloc, Provider), Firebase, and Google Maps integration. Proven track record delivering high-quality apps across iOS and Android.
 \end{itemize}
 
+\vspace{.1cm}
 % Experience
 \section*{Experience}
 \resumeSubHeadingListStart
    \resumeSubheading{PLAENT LAND L.L.C}{Full-Time, Remote, UAE}{}{}
       \resumeItemListStart
-        \resumeItem{}{Built real estate apps with Flutter, integrating APIs, Google Maps, and Firebase (Crashlytics, Analytics).}
-        \resumeItem{}{Designed responsive UI from Figma, supporting localization for multilingual users.}
-        \resumeItem{}{Used clean architecture and Bloc for maintainable, scalable code.}
-        \resumeItem{}{Managed tasks with Jira and collaborated via Slack for efficient remote work.}
+        \resumeItem{}{Built real estate apps with Flutter, integrating Google Maps, Firebase, and RESTful APIs.}
+        \resumeItem{}{Designed responsive UI from Figma with localization support for multilingual users.}
+        \resumeItem{}{Applied clean architecture and Bloc for scalable, maintainable code.}
       \resumeItemListEnd
 
   \resumeSubheading{Sonbla}{Part-Time, Remote, KSA}{}{}
       \resumeItemListStart
-        \resumeItem{}{Enhanced user and delivery apps and developed a new vendor app using Flutter.}
-        \resumeItem{}{Implemented streams for real-time data, improving app responsiveness.}
-        \resumeItem{}{Applied MVVM architecture with Provider for modular code.}
-        \resumeItem{}{Ensured app reliability through testing and bug fixes.}
-        \resumeItem{}{Added features with Branch.io for deep linking and Sentry for error tracking.}
+        \resumeItem{}{Enhanced user/delivery apps and developed vendor app using Flutter with MVVM architecture.}
+        \resumeItem{}{Integrated Branch.io for deep linking and Sentry for error tracking, improving app reliability.}
       \resumeItemListEnd
 
-   \resumeSubheading{Metachain Technologies Inc.}{Full-Time, Remote, Canada}{}{}
+   \resumeSubheading{Metachain Technologies Inc.}{Full-Time, Remote, CA}{}{}
       \resumeItemListStart
-        \resumeItem{}{Developed 5+ mobile apps using Flutter.}
-        \resumeItem{}{Collaborated with backend, ML, DevOps, and design teams for feature delivery.}
-        \resumeItem{}{Wrote technical documentation in Markdown to aid onboarding.}
-        \resumeItem{}{Managed tasks with ClickUp and Notion for timely feature delivery.}
+        \resumeItem{}{Developed 5+ mobile apps using Flutter, collaborating with backend, ML, and DevOps teams.}
+        \resumeItem{}{Managed tasks with ClickUp and Notion, ensuring timely feature delivery.}
       \resumeItemListEnd
 \resumeSubHeadingListEnd
 
+\vspace{.1cm}
 % Education
 \section*{Education}
 \resumeSubHeadingListStart
    \resumeSubheading{Faculty of Computers and Artificial Intelligence, Helwan University}{}{}{}
       \resumeItemListStart
-        \resumeItem{Relevant Coursework}{Mobile Application Development, Data Structures, Algorithms, Software Engineering}
         \resumeItem{Graduation Project}{Augmented Reality with Flutter and Unity 3D (A Grade)}
       \resumeItemListEnd
 \resumeSubHeadingListEnd
 
+\vspace{.1cm}
 % Projects
 \section*{Projects}
-\textbf{Homes App} \href{https://play.google.com/store/apps/details?id=com.homes.radar}{Google Play} | \href{https://apps.apple.com/ae/app/homes/id6744656599}{App Store}
+
+\textbf{PLAENT LAND L.L.C Apps} \href{https://play.google.com/store/apps/dev?id=4698187612466780623}{Play Store} | \href{https://apps.apple.com/ae/developer/mohamad-saleh/id1783205274}{App Store}
 \begin{itemize}
-    \item Developed a real estate app using Flutter, integrating APIs, Google Maps, and Firebase for seamless data handling.
-    \item Designed responsive UIs from Figma and implemented localization for multilingual users.
-    \item Applied clean architecture and Bloc to ensure scalability and maintainability.
+    \item Real estate platform, integrating Google Maps, Augmented Reality, Firebase, and RESTful APIs.
+    \item Implemented clean architecture and Bloc for scalability, with full localization support.
+    \vspace{1mm}
+    \item \textbf{Tech:} Flutter, Bloc, Firebase, Google Maps, Clean Architecture, AR, Git Hooks, Unit Testing, Flavors
 \end{itemize}
 
-\textbf{Sonbla Apps} \href{https://play.google.com/store/apps/developer?id=Sonbla}{Google Play} | \href{https://apps.apple.com/us/developer/ahmed-ghazy/id1672007872}{App Store}
+\textbf{Sonbla Apps} \href{https://play.google.com/store/apps/developer?id=Sonbla}{Play Store} | \href{https://apps.apple.com/us/developer/ahmed-ghazy/id1672007872}{App Store}
 \begin{itemize}
-    \item Enhanced user and delivery apps and developed a vendor app using Flutter.
-    \item Integrated Branch.io for deep linking and analytics, and Sentry for error tracking.
-    \item Applied MVVM architecture with Provider and streams for real-time updates.
+    \item E-commerce platform with user, delivery, and vendor apps using MVVM and Provider.
+    \item Integrated Branch.io for deep linking and Sentry for error tracking.
+    \vspace{1mm}
+    \item \textbf{Tech:} Flutter, Provider, MVVM, Branch.io, Sentry, Streams, Refactoring
 \end{itemize}
 
-\textbf{AI RADAR} \href{https://play.google.com/store/apps/details?id=com.atworld.atradar}{Google Play} | \href{https://apps.apple.com/ae/app/ai-radar/id6747173241}{App Store}
-\begin{itemize}
-    \item Developed a travel and discovery assistant app using Flutter and Google Places API for real-time location insights.
-    \item Implemented multiple exploration modes (Map, AR, and List views) for intuitive discovery and navigation.
-    \item Integrated detailed place data, including photos, reviews, hours, and directions for a complete experience.
-    \item Focused on responsive design, performance optimization, and smooth AR interactions for travelers and locals.
-\end{itemize}
-
-\textbf{Privilege App} \href{https://play.google.com/store/apps/details?id=com.privilegeapps.privilege}{Google Play} | \href{https://apps.apple.com/us/app/privilege/id1632963488}{App Store}
-\begin{itemize}
-    \item Built and maintained an educational app for course management using Flutter.
-    \item Revamped the UI/UX to enhance engagement and retention.
-    \item Strengthened testing and debugging workflows to ensure app stability.
-\end{itemize}
-
+\vspace{.1cm}
 % Skills
 \section*{Skills}
 \begin{itemize}[leftmargin=0pt]
-    \item \textbf{Programming Languages:} Dart, Python, Java
-    \item \textbf{Mobile Development:} Flutter, State Management (Bloc, Provider, Cubit, GetX), Firebase (Firestore, Functions, Storage, Crashlytics, Remote Config, Analytics, App Distribution), Google Maps, Google Places, Branch.io, Sentry, Networking (Http, Dio), Local Storage (SQFlite, Shared Preferences), Streams, Localization, Responsive Design, Payment Integration, Push Notifications, Third-Party API Integration, Shorebird, Flavors
-    \item \textbf{Development Practices:} Clean Code, Clean Architecture, MVVM, Testing (Unit, Widget), Agile Methodologies
-    \item \textbf{Tools:} Git, GitHub, Git Hooks, VS Code, Android Studio, Xcode, Figma, Jira, Slack, ClickUp, Notion, CI/CD Tools
-    \item \textbf{Soft Skills:} Collaboration, Problem-Solving, Adaptability, Communication, Team Leadership
+    \item \textbf{Mobile:} Flutter, Dart, State Management (Bloc/Cubit, Provider, GetX), Firebase (Firestore, Functions, Crashlytics, Analytics, Remote Config, App Distribution), Google Maps/Places, Push Notifications, Payment Integration, Localization, Deep Link, Networking, Local Storage, Flavors
+    \item \textbf{Practices:} Clean Architecture, MVVM, Testing (Unit, Widget), Agile, CI/CD
+    \item \textbf{Tools:} Git, GitHub, VS Code, Android Studio, Xcode, Figma, Jira, Slack
 \end{itemize}
 
+\vspace{.1cm}
 % Achievements
 \section*{Achievements}
 \begin{itemize}[left=0em]
-    \item \textbf{Stack Overflow Contributor:} 400+ reputation points, 10+ answers, and 3 accepted as best answers.
-    \item \textbf{Open Source Contributions:} Actively contribute to the Flutter and Dart communities on GitHub and Reddit.
-    \item \textbf{Graduation Project:} Developed an Augmented Reality application using Flutter and Unity 3D, earning an A grade.
+    \item \textbf{Published Package:} Created \href{https://pub.dev/packages/performance_monitor}{performance\_monitor} package on pub.dev
+    \item \textbf{Stack Overflow:} 400+ reputation, 10+ answers, 3 accepted as best answers
+    \item \textbf{Open Source:} Active contributor to Flutter/Dart communities on GitHub and Reddit
 \end{itemize}
 
 \end{document}

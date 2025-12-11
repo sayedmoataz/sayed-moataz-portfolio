@@ -3,8 +3,7 @@ import {
     Chip,
     Divider,
     Stack,
-    Toolbar,
-    Typography,
+    Typography
 } from '@mui/material'
 import { useContext, useEffect, useRef, useState } from 'react'
 import { FaBriefcase, FaCalendarAlt, FaClock, FaGraduationCap, FaMapMarkerAlt } from 'react-icons/fa'
@@ -382,21 +381,20 @@ const Experiences = () => {
     }, [])
 
     return (
-        <Stack
+        <Box
             id="Experiences"
-            direction='column'
-            justifyContent="flex-start"
-            alignItems="flex-start"
+            sx={{
+                width: '100%',
+                pt: { xs: 12, md: 15 },
+                pb: { xs: 5, md: 10 },
+                px: { xs: 2, md: 5 }
+            }}
         >
-            <Toolbar />
-            <Toolbar />
             <Header color={state.color.light} title='EXPERIENCE' />
 
             {/* Timeline Container */}
             <Stack
                 width="100%"
-                px={{ xs: 2, md: 5 }}
-                pb={{ xs: 5, md: 10 }}
                 sx={{
                     position: 'relative',
                     '@keyframes pulse': {
@@ -423,7 +421,7 @@ const Experiences = () => {
                     </div>
                 ))}
             </Stack>
-        </Stack>
+        </Box>
     )
 }
 

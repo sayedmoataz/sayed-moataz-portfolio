@@ -175,7 +175,7 @@ const Publications = () => {
                                     >
                                         <Stack direction="row" spacing={1} alignItems="baseline">
                                             <Typography
-                                                variant="h4"
+                                                variant="h6"
                                                 fontFamily='"Noto Sans", sans-serif'
                                                 fontWeight={700}
                                                 sx={{

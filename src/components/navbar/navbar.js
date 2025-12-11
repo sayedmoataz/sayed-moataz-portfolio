@@ -1,9 +1,9 @@
-import React, { useContext, useState } from 'react'
-import { useNavigate } from "react-router-dom"
+import MenuIcon from '@mui/icons-material/Menu'
 import {
-    Avatar,
     AppBar,
+    Avatar,
     Box,
+    Button,
     Divider,
     Drawer,
     IconButton,
@@ -12,14 +12,14 @@ import {
     ListItemButton,
     ListItemText,
     Toolbar,
-    Button,
 } from '@mui/material'
-import MenuIcon from '@mui/icons-material/Menu'
+import { useContext, useState } from 'react'
+import { useNavigate } from "react-router-dom"
 
-import { AppContext } from '././../../context/context/context.js'
-import data from "./../../data/navbar.json"
+import logo from '../../assets/sayed.webp'
 import resume from './../../assets/pdf/Sayed_Moataz___Flutter_Developer.pdf'
-import logo from '../../assets/sayed.png'
+import data from "./../../data/navbar.json"
+import { AppContext } from '././../../context/context/context.js'
 
 const drawerWidth = 240
 
