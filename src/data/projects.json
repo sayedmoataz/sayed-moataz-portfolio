@@ -1,140 +1,294 @@
 {
     "categories": {
         "keys": [
-            "All",
-            "Mobile Development",
-            "UI / UX Design"
+            "Mobile Development"
         ],
-        "All": {
-            "name": "All",
-            "projects": [
-                "Privilege",
-                "Zefaaf",
-                "Hadayek-Hof",
-                "Onco",
-                "Clinco",
-                "Elagak"
-            ]
-        },
         "Mobile Development": {
             "name": "Mobile Development",
             "projects": [
+                "CrewAI",
+                "Match Buy",
+                "Sonbla",
+                "Sonbla Driver",
+                "AI Homes",
+                "HomesXP",
+                "AI Feasibility",
+                "AI RADAR",
+                "AI CARD",
+                "Aelanji",
+                "3Elagk",
                 "Privilege",
-                "Zefaaf",
                 "Hadayek-Hof",
-                "Onco",
-                "Clinco"
-            ]
-        },
-        "UI / UX Design": {
-            "name": "UI / UX Design",
-            "projects": [
-                "Elagak"
+                "SpeakGPT"
             ]
         }
     },
     "projects": {
-        "Privilege": {
-            "title": "Privilege App",
+        "CrewAI": {
+            "title": "CrewAI (Intelligent Workforce)",
             "associated": {
-                "name": "Privilege App",
-                "link": "https://apps.apple.com/us/app/privilege/id1632963488"
+                "name": "Metachain Technologies",
+                "link": "https://mcti.io"
             },
-            "start_date": "May 2023",
-            "end_date": "July 2022",
-            "thumbnail": "https://play-lh.googleusercontent.com/c4skQv3-uNDkdnFq-Ar9UEJTJ9U9VcJ1BM25sARn2J59jR7TczHyu6mRKWeziSVIOAaj=w240-h480-rw",
-            "link": "https://play.google.com/store/apps/details?id=com.privilegeapps.privilege",
-            "description": "Developed a comprehensive course management app with tools for user engagement and course interaction. Currently working on a UI redesign to enhance usability and visual appeal.",
+            "start_date": "2024",
+            "end_date": "Present",
+            "thumbnail": "/assets/crew-ai-thumbnail.jpg",
+            "link": "",
+            "description": "A sophisticated platform orchestrating a digital workforce of AI agents. Users can 'hire' AI employees to automate complex professional workflows, featuring granular onboarding, real-time calendar syncing, and immersive cinematic interfaces.",
             "skills": [
-                "Flutter ",
-                "UI/UX Design",
-                "Version Controller "
+                "Google Cloud Platform",
+                "Flutter",
+                "LangChain",
+                "Firebase"
             ],
-            "action": "Live Project"
+            "action": "MVP"
         },
-        "Zefaaf": {
-            "title": "Zefaaf Platform",
+        "Match Buy": {
+            "title": "MatchBuy (AI Real Estate)",
             "associated": {
-                "name": "Zefaaf Platform",
-                "link": "https://apps.apple.com/us/app/%D9%85%D9%86%D8%B5%D8%A9-%D8%B2%D9%81%D8%A7%D9%81/id1550582488"
+                "name": "Metachain Technologies",
+                "link": "https://mcti.io"
             },
-            "start_date": "Sep 2024",
-            "end_date": "Nov 2024",
-            "thumbnail": "https://play-lh.googleusercontent.com/383ALQSAnqKnP64regAi0SeHyRqpR8fZ4-ZCW1xPiH2oJTi-QC257t8Yxe99z4HJ1Q=w240-h480-rw",
-            "link": "https://play.google.com/store/apps/details?id=com.dreamsoft.zefaaf",
-            "description": "Islamic marriage services platform where responsibilities include bug fixing, technical troubleshooting, code refactoring, and implementing new UI/UX designs for a better user experience.",
+            "start_date": "2024",
+            "end_date": "Present",
+            "thumbnail": "/assets/match-buy-thumbnail.jpg",
+            "link": "",
+            "description": "AI-powered real estate assistant simplifying property discovery. Features a sophisticated chatbot for personalized insights, algorithm-based buyer-seller matching, and a cinematic interface for seamless exploration.",
+            "skills": [
+                "LLM Prompt Engineering",
+                "AI Chatbot",
+                "Flutter",
+                "GPT API",
+                "Real Estate"
+            ],
+            "action": "MVP"
+        },
+        "SpeakGPT": {
+            "title": "SpeakGPT (Voice)",
+            "associated": {
+                "name": "Metachain Technologies",
+                "link": "https://mcti.io"
+            },
+            "start_date": "2024",
+            "end_date": "2025",
+            "thumbnail": "",
+            "link": "",
+            "description": "Voice-first GPT client with continuous conversational flow using Speech-to-Text/Text-to-Speech.",
             "skills": [
                 "Flutter",
-                "API Integration",
-                "Code Refactoring",
-                "Swagger"
+                "Speech-to-Text",
+                "Text-to-Speech",
+                "OpenAI GPT"
             ],
-            "action": "Live Project"
+            "action": "MVP"
         },
-        "Elagak": {
-            "title": "Elagak Project",
+        "3Elagk": {
+            "title": "3Elagk (Medical Ecosystem)",
             "associated": {
-                "name": "Elagak Project",
+                "name": "Freelance",
                 "link": ""
             },
-            "start_date": "Sep 2022",
-            "end_date": "Oct 2022",
-            "thumbnail": "https://media.licdn.com/dms/image/v2/D562DAQFv46czCXAPDg/profile-treasury-image-shrink_1920_1920/profile-treasury-image-shrink_1920_1920/0/1698332177514?e=1731855600&v=beta&t=kklY9bPtnMWGQgSaFXD_04dSErsKW8R7JSgVHb9fz8A",
-            "link": "https://xd.adobe.com/view/a60dcd99-a4cf-423c-84eb-30ffe1121fc3-f35e/?fbclid=IwY2xjawEvG59leHRuA2FlbQIxMAABHUhk1bpDMmNxGiKoxL3hDDqw6OdUjdxdFbZAg-4hxnKEUb5YtiA37Ix8Tw_aem_xD-bjhxMZeubY_BrMBnbvA",
-            "description": "A healthcare solution comprising three applications: User, Pharmacy, and Delivery, along with an Admin Dashboard.",
+            "start_date": "2022",
+            "end_date": "2023",
+            "thumbnail": "/assets/portifilio-assets/3elagy/imgi_5_bb3f8da5-df2f-4e46-8555-4ecd3bff1c04.jpg",
+            "link": "https://xd.adobe.com/view/a60dcd99-a4cf-423c-84eb-30ffe1121fc3-f35e/grid/",
+            "description": "Comprehensive medical commerce ecosystem connecting Buyers, Merchants, and Delivery agents. Features synchronized real-time order flow, inventory management, and secure checkouts.",
             "skills": [
-                "Adobe Xd"
+                "Flutter",
+                "Firebase",
+                "Firestore",
+                "API Integration",
+                "Adobe XD"
             ],
-            "action": "Adobe Xd"
+            "action": "View Design"
+        },
+        "AI Homes": {
+            "title": "AI Homes (Performance)",
+            "associated": {
+                "name": "PLANET LAND LLC",
+                "link": "https://www.planetland.net/"
+            },
+            "start_date": "2024",
+            "end_date": "Present",
+            "thumbnail": "/assets/portifilio-assets/at-world/ai-homes/imgi_3_81446528-2bf7-4898-8c51-7f805ea65762.jpg",
+            "link": "https://play.google.com/store/apps/details?id=com.homes.radar&pcampaignid=web_share",
+            "description": "Spearheaded performance overhaul reducing startup delay from 30s to <1s. Re-architected startup sequence with parallel async loading and lazy initialization.",
+            "skills": [
+                "Flutter",
+                "Performance Optimization",
+                "Dart",
+                "Clean Architecture"
+            ],
+            "action": "Live App"
+        },
+        "HomesXP": {
+            "title": "HomesXP (Fintech & VR)",
+            "associated": {
+                "name": "PLANET LAND LLC",
+                "link": "https://www.planetland.net/"
+            },
+            "start_date": "2024",
+            "end_date": "Present",
+            "thumbnail": "/assets/portifilio-assets/at-world/homesxp/imgi_4_e4439f87-3d1b-489b-8814-caf09c4e4bf3.jpg",
+            "link": "https://play.google.com/store/apps/details?id=com.homesxp.homesxp&pcampaignid=web_share",
+            "description": "AI-driven Fintech & Virtual Real Estate Platform. Features Mortgage Calculator, investment tracking, and multi-view engine (Map, Radar, List, Posts, Live Stats).",
+            "skills": [
+                "Flutter",
+                "FinTech",
+                "Statistics",
+                "Real Estate"
+            ],
+            "action": "Live App"
+        },
+        "AI Feasibility": {
+            "title": "AI Feasibility (Fintech)",
+            "associated": {
+                "name": "PLANET LAND LLC",
+                "link": "https://www.planetland.net/"
+            },
+            "start_date": "2024",
+            "end_date": "Present",
+            "thumbnail": "/assets/portifilio-assets/at-world/ai-fesibility/imgi_5_b3c896d8-ec34-4264-948d-790d04461195.jpg",
+            "link": "https://play.google.com/store/apps/details?id=at.ai.feasibility.world&pcampaignid=web_share",
+            "description": "High-precision financial feasibility tool generating complex real estate assessments. Calculates IRR, NPV, ROI, and Payback periods with dynamic scenario testing.",
+            "skills": [
+                "Flutter",
+                "Data Analysis",
+                "FinTech",
+                "Business Intelligence"
+            ],
+            "action": "Live App"
+        },
+        "Aelanji": {
+            "title": "Aelanji (Classifieds)",
+            "associated": {
+                "name": "Freelance",
+                "link": ""
+            },
+            "start_date": "2025",
+            "end_date": "Present",
+            "thumbnail": "/assets/portifilio-assets/aelanji/imgi_6_f3dc888c-91a1-40ac-8b13-a4d97fb7bd54.png",
+            "link": "",
+            "description": "High-performance classifieds marketplace (OLX alternative). Features diverse ad categories, location-based search, instant messaging, and media-rich listings.",
+            "skills": [
+                "App Marketplace",
+                "Flutter",
+                "Dart",
+                "Clean Architecture"
+            ],
+            "action": "In Dev"
+        },
+        "AI RADAR": {
+            "title": "AI RADAR (AR Discovery)",
+            "associated": {
+                "name": "PLANET LAND LLC",
+                "link": "https://www.planetland.net/"
+            },
+            "start_date": "2024",
+            "end_date": "Present",
+            "thumbnail": "/assets/portifilio-assets/at-world/ai-radar/imgi_4_7dfbf64b-55b2-44ee-9130-21ffee7cc01c.jpg",
+            "link": "https://play.google.com/store/apps/details?id=com.atworld.atradar",
+            "description": "Augmented Reality discovery app. Integrates Google Places API with a 3-way navigation system (Map, List, AR Camera) for real-time visual discovery.",
+            "skills": [
+                "Flutter",
+                "Dart",
+                "Augmented Reality",
+                "Google Maps API"
+            ],
+            "action": "Live App"
+        },
+        "AI CARD": {
+            "title": "AI CARD (AR Networking)",
+            "associated": {
+                "name": "PLANET LAND LLC",
+                "link": "https://www.planetland.net/"
+            },
+            "start_date": "2024",
+            "end_date": "Present",
+            "thumbnail": "/assets/portifilio-assets/at-world/ai-cards/imgi_5_d5407006-4e61-463f-a1dd-6593ef159462.jpg",
+            "link": "https://play.google.com/store/apps/details?id=at.world.business.card&pcampaignid=web_share",
+            "description": "AR-powered business networking platform. Features 360° Radar Scanner, digitizes professional discovery, and real-time GPS positioning.",
+            "skills": [
+                "Flutter",
+                "Firebase",
+                "Google Maps",
+                "AR & VR"
+            ],
+            "action": "Live App"
+        },
+        "Sonbla Driver": {
+            "title": "Sonbla Driver (Logistics)",
+            "associated": {
+                "name": "Sonbla",
+                "link": "https://sonbla.app/"
+            },
+            "start_date": "2023",
+            "end_date": "2024",
+            "thumbnail": "/assets/portifilio-assets/sonbla/imgi_3_f2b331b6-7b2f-45f2-9186-d933beaf1a47.jpg",
+            "link": "https://play.google.com/store/apps/details?id=app.sonbla.driver&pcampaignid=web_share",
+            "description": "Real-time logistics and fleet management solution. Features high-precision background location tracking, order management, and financial dashboards.",
+            "skills": [
+                "Flutter",
+                "Streaming",
+                "Websockets"
+            ],
+            "action": "Live App"
+        },
+        "Sonbla": {
+            "title": "Sonbla (E-commerce)",
+            "associated": {
+                "name": "Sonbla",
+                "link": "https://sonbla.app/"
+            },
+            "start_date": "2023",
+            "end_date": "2024",
+            "thumbnail": "/assets/portifilio-assets/sonbla/imgi_3_f2b331b6-7b2f-45f2-9186-d933beaf1a47.jpg",
+            "link": "https://play.google.com/store/apps/details?id=app.sonbla&pcampaignid=web_share",
+            "description": "Integrated E-commerce & Delivery Platform for KSA market. Handles dynamic inventory, secure payments, and real-time order tracking.",
+            "skills": [
+                "Flutter",
+                "E-commerce",
+                "Payment Gateway",
+                "Order Tracking"
+            ],
+            "action": "Live App"
+        },
+        "Privilege": {
+            "title": "Privilege (EdTech)",
+            "associated": {
+                "name": "Freelance",
+                "link": "https://apps.apple.com/us/app/privilege/id1632963488"
+            },
+            "start_date": "2022",
+            "end_date": "2023",
+            "thumbnail": "https://play-lh.googleusercontent.com/c4skQv3-uNDkdnFq-Ar9UEJTJ9U9VcJ1BM25sARn2J59jR7TczHyu6mRKWeziSVIOAaj=w240-h480-rw",
+            "link": "https://play.google.com/store/apps/details?id=com.privilegeapps.privilege&pcampaignid=web_share",
+            "description": "Advanced EdTech study companion for medical students. Features interactive Flashcards, Quizzes, study planner, and organized notes system.",
+            "skills": [
+                "Flutter",
+                "EdTech",
+                "Android",
+                "iOS"
+            ],
+            "action": "Live App"
         },
         "Hadayek-Hof": {
-            "title": "Hadayek-Hof App",
+            "title": "Hadayek-Hof (Services)",
             "associated": {
-                "name": "Hadayek-Hof App",
-                "link": ""
+                "name": "Freelance",
+                "link": "https://appgallery.huawei.com/app/C106661249"
             },
-            "start_date": "Aug 2022",
-            "end_date": "Sep 2022",
-            "thumbnail": "https://media.licdn.com/dms/image/v2/D562DAQGR7zzwuAUc_w/profile-treasury-image-shrink_1920_1920/profile-treasury-image-shrink_1920_1920/0/1698331362949?e=1731855600&v=beta&t=XOGuDnEFMeX73X5wc5aKS7PmpQ-0DMZ43ldHUgShxkE",
-            "link": "https://appgallery.huawei.com/#/app/C106661249",
-            "description": "A services app that includes secure backend communication using encryption and allows for sharing posts through Firebase Dynamic Links.",
+            "start_date": "2022",
+            "end_date": "2022",
+            "thumbnail": "/assets/imgi_3_27bfc4e9-6135-478b-9d14-115c19a3f6b0.jpg",
+            "link": "https://appgallery.huawei.com/app/C106661249",
+            "description": "Local services application facilitating community interaction and service discovery. Features secure backend communication.",
             "skills": [
+                "Flutter",
                 "Firebase",
                 "Encryption"
             ],
-            "action": "Live Project"
-        },
-        "Onco": {
-            "title": "Onco App",
-            "associated": {
-                "name": "Onco App",
-                "link": "https://apps.apple.com/eg/app/onco-help/id6443458019"
-            },
-            "start_date": "June 2022",
-            "end_date": "Nov 2024",
-            "thumbnail": "https://play-lh.googleusercontent.com/UYvT9STUzyw7z77Ah06TPaJ6mWub8E-IfuY1xzDgA8pOjQrBkiIbKJSNNi7RVi2fZhUz=w240-h480-rw",
-            "link": "https://play.google.com/store/apps/details?id=com.oncoapp.oncohelp",
-            "description": "An application integrated with the Paymob payment gateway, with additional technical support responsibilities.",
-            "skills": [
-                "Payment Gateway Integration",
-                "Technical Support"
-            ],
-            "action": "Live Project"
-        },
-        "Clinco": {
-            "title": "Clinco App",
-            "associated": {
-                "name": "Clinco App",
-                "link": ""
-            },
-            "start_date": "Oct 2022",
-            "end_date": "Oct 2022",
-            "thumbnail": "",
-            "link": "",
-            "description": "Another app with Paymob payment gateway integration.",
-            "skills": [
-                "Payment Gateway Integration"
-            ]
+            "action": "Live App"
         }
     }
 }

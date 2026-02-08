@@ -13,6 +13,10 @@
             "title": "Publications"
         },
         {
+            "link": "/projects",
+            "title": "Projects"
+        },
+        {
             "link": "/blog",
             "title": "Blog"
         }
@@ -29,6 +33,10 @@
         {
             "link": "/publications",
             "title": "Publications"
+        },
+        {
+            "link": "/projects",
+            "title": "Projects"
         },
         {
             "link": "/blog",

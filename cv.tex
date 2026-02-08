@@ -1,200 +1,125 @@
 \documentclass[letterpaper,11pt]{article}
-\usepackage[left=0.4in, right=0.4in, top=0.25in, bottom=0.4in]{geometry}
-\usepackage{enumitem}
-\usepackage[usenames,dvipsnames]{xcolor}
-\definecolor{linkcolour}{rgb}{0,0.2,0.6}
-\usepackage[unicode, colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue]{hyperref}
-\usepackage[normalem]{ulem}
-\let\oldhref\href
-\renewcommand{\href}[2]{\oldhref{#1}{\uline{#2}}}
-\hypersetup{
-    linkcolor=linkcolour,
-    urlcolor=linkcolour,
-    pdfauthor={Sayed-Moataz},
-    pdftitle={Sayed Moataz},
-    pdfsubject={Sayed Moataz}
-}
 
-\usepackage[defaultlines=3,all]{nowidow}
-\clubpenalty=10000
-\widowpenalty=10000
-\displaywidowpenalty=10000
+%----------------- PACKAGES -----------------
+\usepackage[left=0.5in, right=0.5in, top=0.5in, bottom=0.5in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[unicode, colorlinks=true, linkcolor=black, urlcolor=blue]{hyperref} % Changed link color to black for cleaner look, URL blue
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+%----------------- FORMATTING -----------------
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=0.2in, itemsep=1pt, topsep=2pt, parsep=1pt}
+
+% Section styling with a horizontal rule
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+
 \pagestyle{empty}
 
-\setlength{\parindent}{0pt}
-\usepackage{latexsym}
-\usepackage[empty]{fullpage}
-\usepackage{titlesec}
-\usepackage{marvosym}
-\usepackage{verbatim}
-\usepackage{ragged2e}
-\usepackage{fontawesome5}
-\usepackage{comment}
-\usepackage[super]{nth}
-\usepackage{indentfirst}
-\usepackage{multirow}
-\usepackage{multicol}
-\usepackage{array}
-\usepackage{supertabular}
-\usepackage{tabularx}
-
-\setlist[itemize]{leftmargin=0pt, itemsep=0pt, parsep=0pt}
-
-\newlength{\fullcollw}
-\setlength{\fullcollw}{0.47\textwidth}
-\newcolumntype{C}{>{\centering\arraybackslash}X}
-\usepackage{tikz}
-\usetikzlibrary{shapes.geometric}
-
-% Adjust margins
-\addtolength{\oddsidemargin}{-0.6in}
-\addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1.19in}
-
-\urlstyle{same}
-
-\raggedright
-\setlength{\tabcolsep}{0in}
-
-\titleformat{\section}{
-  \vspace{-4pt}\raggedright\Large\bfseries
-}{}{0em}{}[\color{black}\titlerule \vspace{4pt}]
-
-\titlespacing*{\section}{0pt}{-6.7pt}{0pt}
-
-\renewcommand{\resumeSubheading}[4]{
-  \vspace{-1mm}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-    \end{tabular*}\vspace{1pt}
-}
-
-\newcommand{\resumeItem}[2]{
-  \item\small\justifying{
-    {#2 \vspace{0pt}}
-  }
-}
-
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
-\renewcommand{\labelitemii}{$\circ$}
-
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, label=--]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}[label=-, itemsep=0pt]}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
-
-\definecolor{mylinkcolor}{RGB}{0,71,171}
-\definecolor{darkblue}{RGB}{0,0,128}
-\definecolor{darkred}{RGB}{139,0,0}
-
 \begin{document}
-\vspace*{-0.8in}
-\noindent
-\begin{minipage}[c]{0.2\textwidth}
-    \raggedright
-    \small
-    Cairo, Egypt \\
-    \begin{tabular}{@{}c l@{}}
-    \href{tel:+201090461339}{{\faPhone*}}&\hspace{0.2cm}\href{tel:+201090461339}{+(20)1090461339} \\
-    \href{mailto:sayedmoataz9@gmail.com}{{\faEnvelope}}&\hspace{0.2cm}\href{mailto:sayedmoataz9@gmail.com}{sayedmoataz9@gmail.com}\\
-    \end{tabular}
-\end{minipage}%
-\hfill
-\begin{minipage}[c]{0.52\textwidth}
-    \centering
-    {\Huge \textbf{\textit{{Sayed Moataz}}}} \\
-    {\vspace{0.2cm}\Large Flutter Developer} \\
-    {\vspace{0.13cm}\small \href{https://sayed-moataz-portfolio-five.vercel.app/}{sayed-moataz-portfolio.vercel.app}}
-\end{minipage}%
-\hfill
-\begin{minipage}[c]{0.25\textwidth}
-    \centering
-    \small
-    \renewcommand{\arraystretch}{1.15}
-    \begin{tabular}{@{}c l@{}}
-        \href{https://www.linkedin.com/in/saayeedmdawoud}{{\faLinkedin}} &\hspace{0.2cm}\href{https://www.linkedin.com/in/saayeedmdawoud}{LinkedIn} \\
-        \href{https://github.com/sayedmoataz}{{\faGithub}} & \hspace{0.2cm}\href{https://github.com/sayedmoataz}{GitHub} \\
-        \href{https://stackoverflow.com/users/11287483/saayeed-m-daawoud}{{\faStackOverflow}} & \hspace{0.2cm}\href{https://stackoverflow.com/users/11287483/saayeed-m-daawoud}{Stack Overflow}
-    \end{tabular}
-\end{minipage}
 
-\vspace{.1cm}
-% Summary
-\section*{Summary}
-\begin{itemize}[leftmargin=0pt]
-    \item Experienced Flutter Developer with 3+ years building scalable mobile apps for real estate, e-commerce, and education. Expert in clean architecture, state management (Bloc, Provider), Firebase, and Google Maps integration. Proven track record delivering high-quality apps across iOS and Android.
-\end{itemize}
+%----------------- HEADER -----------------
+\begin{center}
+    {\Huge \textbf{Sayed Moataz}}\\[4pt]
+    \textbf{Senior Flutter Engineer (3+ Years Experience)}\\[4pt]
+    Abu Dhabi, UAE | 
+    UAE: +971 559260817 | 
+    EG: +20 1090461339 \\[4pt]
+    \href{mailto:sayedmoataz9@gmail.com}{sayedmoataz9@gmail.com} |
+    LinkedIn: \href{https://www.linkedin.com/in/saayeedmdawoud}{in/saayeedmdawoud} |
+    GitHub: \href{https://github.com/sayedmoataz}{github.com/sayedmoataz}
+\end{center}
 
-\vspace{.1cm}
-% Experience
-\section*{Experience}
-\resumeSubHeadingListStart
-   \resumeSubheading{PLAENT LAND L.L.C}{Full-Time, Remote, UAE}{}{}
-      \resumeItemListStart
-        \resumeItem{}{Built real estate apps with Flutter, integrating Google Maps, Firebase, and RESTful APIs.}
-        \resumeItem{}{Designed responsive UI from Figma with localization support for multilingual users.}
-        \resumeItem{}{Applied clean architecture and Bloc for scalable, maintainable code.}
-      \resumeItemListEnd
+%----------------- SUMMARY -----------------
+\section{Summary}
+Senior Flutter Engineer with 3+ years of production experience architecting high-performance, cross-platform applications across Real Estate, E-commerce, and AI sectors. Expert in Clean Architecture and BLoC, with a proven track record of optimizing app launch times by 90\%+ and slashing operational API costs by 85\%. Active open-source contributor and package author, dedicated to building scalable, offline-first mobile solutions and mentoring through technical engineering content.
 
-  \resumeSubheading{Sonbla}{Part-Time, Remote, KSA}{}{}
-      \resumeItemListStart
-        \resumeItem{}{Enhanced user/delivery apps and developed vendor app using Flutter with MVVM architecture.}
-        \resumeItem{}{Integrated Branch.io for deep linking and Sentry for error tracking, improving app reliability.}
-      \resumeItemListEnd
+%----------------- PROFESSIONAL EXPERIENCE -----------------
+\section{Work Experience}
 
-   \resumeSubheading{Metachain Technologies Inc.}{Full-Time, Remote, CA}{}{}
-      \resumeItemListStart
-        \resumeItem{}{Developed 5+ mobile apps using Flutter, collaborating with backend, ML, and DevOps teams.}
-        \resumeItem{}{Managed tasks with ClickUp and Notion, ensuring timely feature delivery.}
-      \resumeItemListEnd
-\resumeSubHeadingListEnd
-
-\vspace{.1cm}
-% Education
-\section*{Education}
-\resumeSubHeadingListStart
-   \resumeSubheading{Faculty of Computers and Artificial Intelligence, Helwan University}{}{}{}
-      \resumeItemListStart
-        \resumeItem{Graduation Project}{Augmented Reality with Flutter and Unity 3D (A Grade)}
-      \resumeItemListEnd
-\resumeSubHeadingListEnd
-
-\vspace{.1cm}
-% Projects
-\section*{Projects}
-
-\textbf{PLAENT LAND L.L.C Apps} \href{https://play.google.com/store/apps/dev?id=4698187612466780623}{Play Store} | \href{https://apps.apple.com/ae/developer/mohamad-saleh/id1783205274}{App Store}
+\textbf{PLANET LAND LLC} \hfill Remote, UAE\\
+\textit{Flutter Developer (Mid-to-Senior Level)} \hfill Mar 2025 -- Present
 \begin{itemize}
-    \item Real estate platform, integrating Google Maps, Augmented Reality, Firebase, and RESTful APIs.
-    \item Implemented clean architecture and Bloc for scalability, with full localization support.
-    \vspace{1mm}
-    \item \textbf{Tech:} Flutter, Bloc, Firebase, Google Maps, Clean Architecture, AR, Git Hooks, Unit Testing, Flavors
+    \item Architected and delivered 6 production real estate apps on iOS and Android using Flutter, BLoC, and Firebase.
+    \item \textbf{Performance Optimization:} Reduced app launch time from \textbf{30s to <1s} by implementing lazy initialization, background task deferral, and parallel asynchronous loading.
+    \item \textbf{Growth:} Integrated Branch.io deep linking to drive user acquisition through referral campaigns.
+    \item \textbf{Testing:} Established a TDD workflow using the AAA pattern for authentication modules, significantly reducing regression bugs.
+    \item \textit{Links:} \href{https://play.google.com/store/apps/dev?id=4698187612466780623}{Google Play} $\vert$ \href{https://apps.apple.com/ae/developer/mohamad-saleh/id1783205274}{App Store}
 \end{itemize}
 
-\textbf{Sonbla Apps} \href{https://play.google.com/store/apps/developer?id=Sonbla}{Play Store} | \href{https://apps.apple.com/us/developer/ahmed-ghazy/id1672007872}{App Store}
+\vspace{4pt}
+
+\textbf{Sonbla} \hfill Remote, KSA\\
+\textit{Flutter Developer (Part-Time)} \hfill Mar 2025 -- Dec 2025
 \begin{itemize}
-    \item E-commerce platform with user, delivery, and vendor apps using MVVM and Provider.
-    \item Integrated Branch.io for deep linking and Sentry for error tracking.
-    \vspace{1mm}
-    \item \textbf{Tech:} Flutter, Provider, MVVM, Branch.io, Sentry, Streams, Refactoring
+    \item Led solo development of 3 production e-commerce apps (User, Delivery, Vendor) using MVVM and Provider.
+    \item \textbf{Cost Reduction:} Slashed Google Maps/Places API costs from \textbf{\$3,500 to <\$500 per month} by eliminating redundant calls and optimizing request patterns.
+    \item \textbf{Optimization:} Reduced redundant API calls by \textbf{60\%} via debouncing and request cancellation, cutting perceived wait times to under 1 second.
+    \item \textbf{Stability:} Fixed a critical production crash in the checkout flow (discount code entry), eliminating user drop-off at purchase.
+    \item \textit{Links:} \href{https://play.google.com/store/apps/developer?id=Sonbla}{Google Play} $\vert$ \href{https://apps.apple.com/us/developer/ahmed-ghazy/id1672007872}{App Store}
 \end{itemize}
 
-\vspace{.1cm}
-% Skills
-\section*{Skills}
-\begin{itemize}[leftmargin=0pt]
-    \item \textbf{Mobile:} Flutter, Dart, State Management (Bloc/Cubit, Provider, GetX), Firebase (Firestore, Functions, Crashlytics, Analytics, Remote Config, App Distribution), Google Maps/Places, Push Notifications, Payment Integration, Localization, Deep Link, Networking, Local Storage, Flavors
-    \item \textbf{Practices:} Clean Architecture, MVVM, Testing (Unit, Widget), Agile, CI/CD
-    \item \textbf{Tools:} Git, GitHub, VS Code, Android Studio, Xcode, Figma, Jira, Slack
+\vspace{4pt}
+
+\textbf{Metachain Technologies Inc.} \hfill Remote, Canada\\
+\textit{Flutter Developer} \hfill Dec 2023 -- Mar 2025
+\begin{itemize}
+    \item Delivered 5 MVP applications across AI, real estate, and productivity domains within a cross-functional agile team.
+    \item \textbf{Project: Match Buy (AI Real Estate)}
+    \begin{itemize}
+        \item Built an AI-driven property search with \textbf{95\% query accuracy} using OpenAI Assistants API and vector databases.
+        \item Designed intelligent fallback systems using Google Cloud BigQuery and GraphRAG.
+    \end{itemize}
+    \item \textbf{Project: AI Employee (Productivity)}
+    \begin{itemize}
+        \item Developed a multi-persona email assistant integrating Gmail APIs and SMTP for context-aware reply generation.
+    \end{itemize}
+    \item \textbf{Project: SpeakGPT (Voice)}
+    \begin{itemize}
+        \item Engineered a voice-first GPT client with continuous conversational flow using Speech-to-Text/Text-to-Speech.
+    \end{itemize}
+\end{itemize}
+ \newpage
+
+ %----------------- TECHNICAL SKILLS -----------------
+\section{Technical Skills}
+\begin{itemize}
+    \item \textbf{Core:} Flutter, Dart, Android, iOS, CI/CD (GitHub Actions, Fastlane), Firebase Distribution.
+    \item \textbf{State Management:} BLoC/Cubit, Provider, GetX.
+    \item \textbf{Architecture:} Clean Architecture, MVVM, SOLID Principles, TDD, Offline-first design.
+    \item \textbf{Backend \& Cloud:} Firebase (Firestore, Functions, Auth), Google Cloud (Vertex AI, BigQuery), REST APIs.
+    \item \textbf{AI Integration:} OpenAI GPT APIs, Assistants API, Vector Databases, GraphRAG, Speech-to-Text.
+    \item \textbf{Tools \& Payments:} Git, Jira, Figma, Sentry, Stripe, PayPal, Paymob, Branch.io, AppsFlyer.
 \end{itemize}
 
-\vspace{.1cm}
-% Achievements
-\section*{Achievements}
-\begin{itemize}[left=0em]
-    \item \textbf{Published Package:} Created \href{https://pub.dev/packages/performance_monitor}{performance\_monitor} package on pub.dev
-    \item \textbf{Stack Overflow:} 400+ reputation, 10+ answers, 3 accepted as best answers
-    \item \textbf{Open Source:} Active contributor to Flutter/Dart communities on GitHub and Reddit
+%----------------- OPEN SOURCE & COMMUNITY -----------------
+\section{Open Source \& Community}
+\begin{itemize}
+    \item \textbf{package: performance\_monitor} (\href{https://pub.dev/packages/performance_monitor}{pub.dev}) -- \textbf{160 Points, 350+ Downloads}.
+    \subitem Created a tool to identify/resolve the 30-second splash screen bottleneck.
+    \item \textbf{package: advanced\_responsive} (\href{https://pub.dev/packages/advanced_responsive}{pub.dev}) -- \textbf{160 Points, 200+ Downloads}.
+    \subitem Built a Material Design 3 responsive system with standardized breakpoints and adaptive spacing.
+    \item \textbf{Community:} 400+ Reputation on Stack Overflow; Active (\href{https://medium.com/@sayedmoataz9}{Medium}) writer on Flutter engineering topics.
+\end{itemize}
+
+%----------------- EDUCATION, LANGUAGES & PERSONAL DETAILS -----------------
+\section{Education, Languages \& Personal Details}
+\textbf{Helwan University} \hfill Cairo, Egypt\\
+\textit{Bachelor's Degree in Computer Science (FCAI)} \hfill 2018 -- 2022\\
+
+\textbf{Languages:}
+\begin{itemize}
+    \item \textbf{Arabic:} Native speaker.
+    \item \textbf{English:} Professional working proficiency (Level B1.2).
+\end{itemize}
+
+\textbf{Personal Details:}
+\begin{itemize}
+    \item \textbf{Nationality:} Egyptian.
+    \item \textbf{Military Status:} Completed.
 \end{itemize}
 
 \end{document}

@@ -2,14 +2,34 @@
     "platforms": [
         {
             "name": "pub.dev",
-            "title": "Flutter Packages",
+            "title": "performance_monitor",
             "url": "https://pub.dev/packages/performance_monitor",
             "icon": "SiFlutter",
             "color": "#02569B",
-            "description": "Published Flutter packages and contributions to the Flutter ecosystem",
+            "description": "Created a tool to identify/resolve the 30-second splash screen bottleneck.",
             "stats": {
-                "label": "Package",
-                "value": "1"
+                "label": "Points",
+                "value": "160",
+                "label2": "Likes",
+                "value2": "17",
+                "label3": "Downloads",
+                "value3": "172"
+            }
+        },
+        {
+            "name": "pub.dev",
+            "title": "advanced_responsive",
+            "url": "https://pub.dev/packages/advanced_responsive",
+            "icon": "SiFlutter",
+            "color": "#02569B",
+            "description": "Built a Material Design 3 responsive system with adaptive spacing.",
+            "stats": {
+                "label": "Points",
+                "value": "160",
+                "label2": "Likes",
+                "value2": "21",
+                "label3": "Downloads",
+                "value3": "118"
             }
         },
         {
@@ -17,7 +37,7 @@
             "title": "Technical Articles",
             "url": "https://medium.com/@sayedmoataz9",
             "icon": "FaMedium",
-            "color": "#000000",
+            "color": "#FFFFFF",
             "description": "In-depth technical articles on Flutter, mobile development, and software engineering",
             "stats": {
                 "label": "Articles",
@@ -29,7 +49,7 @@
             "title": "Developer Community",
             "url": "https://dev.to/sayedmoataz",
             "icon": "FaDev",
-            "color": "#0A0A0A",
+            "color": "#FFFFFF",
             "description": "Community posts, tutorials, and discussions on modern development practices",
             "stats": {
                 "label": "Posts",
@@ -53,11 +73,11 @@
             "title": "Open Source",
             "url": "https://github.com/sayedmoataz",
             "icon": "FaGithub",
-            "color": "#181717",
+            "color": "#FFFFFF",
             "description": "Open source contributions, code samples, and collaborative projects",
             "stats": {
                 "label": "Repositories",
-                "value": "20+"
+                "value": "91"
             }
         },
         {
@@ -69,7 +89,7 @@
             "description": "Helping developers solve problems and sharing knowledge",
             "stats": {
                 "label": "Reputation",
-                "value": "400+"
+                "value": "450+"
             }
         }
     ]

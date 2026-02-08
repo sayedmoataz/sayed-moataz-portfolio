@@ -1,20 +1,24 @@
 {
     "data": [
         {
-            "job_title": "Flutter Developer",
-            "company_name": "P***** **** L.L.C",
+            "job_title": "Flutter Developer (Mid-to-Senior Level)",
+            "company_name": "PLANET LAND LLC",
             "location": "Remote, UAE",
             "employment_type": "Full-Time",
             "start_date": "Mar 2025",
             "end_date": "Present",
-            "description": "Built real estate apps with Flutter, integrating APIs, Google Maps, and Firebase (Crashlytics, Analytics). Designed responsive UI from Figma, supporting localization for multilingual users. Used clean architecture and Bloc for maintainable, scalable code. Managed tasks with Jira and collaborated via Slack for efficient remote work.",
+            "description": "Architected and delivered 6 production real estate apps on iOS and Android using Flutter, BLoC, and Firebase. Reduced app launch time from 30s to <1s by implementing lazy initialization, background task deferral, and parallel asynchronous loading. Integrated Branch.io deep linking to drive user acquisition through referral campaigns. Established a TDD workflow using the AAA pattern for authentication modules, significantly reducing regression bugs.",
             "technologies_used": [
                 "Flutter",
-                "Dart",
+                "BLoC",
                 "Firebase",
-                "Google Maps",
-                "Bloc",
+                "Lazy Initialization",
+                "Background Tasks",
+                "Branch.io",
+                "TDD",
+                "AAA Pattern",
                 "Clean Architecture",
+                "Google Maps",
                 "Jira",
                 "Slack",
                 "Figma",
@@ -22,29 +26,39 @@
                 "Crashlytics",
                 "Analytics"
             ],
-            "company_website": "",
-            "relevant_projects": []
+            "company_website": "https://www.planetland.net/",
+            "relevant_projects": [
+                "AI Homes",
+                "HomesXP",
+                "AI Feasibility",
+                "AI RADAR",
+                "AI CARD"
+            ]
         },
         {
-            "job_title": "Flutter Developer",
+            "job_title": "Flutter Developer (Part-Time)",
             "company_name": "Sonbla",
             "location": "Remote, KSA",
             "employment_type": "Part-Time",
             "start_date": "Mar 2025",
-            "end_date": "Dec 2025",
-            "description": "Enhanced user and delivery apps and developed a new vendor app using Flutter. Implemented streams for real-time data, improving app responsiveness. Applied MVVM architecture with Provider for modular code. Ensured app reliability through testing and bug fixes. Added features with Branch.io for deep linking and Sentry for error tracking.",
+            "end_date": "Jan 2026",
+            "description": "Led solo development of 3 production e-commerce apps (User, Delivery, Vendor) using MVVM and Provider. Slashed Google Maps/Places API costs from $3,500 to <$500 per month by eliminating redundant calls and optimizing request patterns. Reduced redundant API calls by 60% via debouncing and request cancellation, cutting perceived wait times to under 1 second. Fixed a critical production crash in the checkout flow (discount code entry), eliminating user drop-off at purchase.",
             "technologies_used": [
                 "Flutter",
-                "Dart",
-                "Provider",
                 "MVVM",
+                "Provider",
+                "Google Maps Optimization",
+                "Debouncing",
+                "Request Cancellation",
                 "Branch.io",
-                "Sentry",
                 "Streams",
-                "Testing"
+                "Sentry"
             ],
             "company_website": "https://sonbla.app/",
-            "relevant_projects": []
+            "relevant_projects": [
+                "Sonbla",
+                "Sonbla Driver"
+            ]
         },
         {
             "job_title": "Flutter Developer",
@@ -53,10 +67,17 @@
             "employment_type": "Full-Time",
             "start_date": "Nov 2023",
             "end_date": "Mar 2025",
-            "description": "Developed 5+ mobile apps using Flutter. Collaborated with backend, ML, DevOps, and design teams for feature delivery. Wrote technical documentation in Markdown to aid onboarding. Managed tasks with ClickUp and Notion for timely feature delivery.",
+            "description": "Delivered 5 MVP applications across AI, real estate, and productivity domains within a cross-functional agile team. Specific projects include Match Buy (AI Real Estate with 95% query accuracy using OpenAI Assistants API and vector databases), AI Employee (Productivity with Gmail API integration), and SpeakGPT (Voice-first GPT client).",
             "technologies_used": [
                 "Flutter",
-                "Dart",
+                "OpenAI Assistants API",
+                "Vector Databases",
+                "BigQuery",
+                "GraphRAG",
+                "Gmail API",
+                "SMTP",
+                "Speech-to-Text",
+                "Text-to-Speech",
                 "Firebase",
                 "Git",
                 "ClickUp",
@@ -66,7 +87,11 @@
                 "ML Integration"
             ],
             "company_website": "https://mcti.io",
-            "relevant_projects": []
+            "relevant_projects": [
+                "CrewAI",
+                "Match Buy",
+                "SpeakGPT"
+            ]
         },
         {
             "job_title": "Military Service",
@@ -118,7 +143,12 @@
                 "App Distribution"
             ],
             "company_website": "",
-            "relevant_projects": []
+            "relevant_projects": [
+                "Aelanji",
+                "3Elagk",
+                "Privilege",
+                "Hadayek-Hof"
+            ]
         },
         {
             "job_title": "Software Engineer Intern",

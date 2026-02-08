@@ -153,6 +153,12 @@
                         "icon": "FaFeatherAlt",
                         "proficiency": 70,
                         "color": "#4A90E2"
+                    },
+                    {
+                        "name": "AppsFlyer",
+                        "icon": "FaChartLine",
+                        "proficiency": 70,
+                        "color": "#00C7B7"
                     }
                 ]
             }
@@ -270,6 +276,29 @@
                         "color": "#000000"
                     }
                 ]
+            },
+            {
+                "name": "Payments & Growth",
+                "skills": [
+                    {
+                        "name": "Stripe",
+                        "icon": "FaStripe",
+                        "proficiency": 80,
+                        "color": "#008CDD"
+                    },
+                    {
+                        "name": "PayPal",
+                        "icon": "FaPaypal",
+                        "proficiency": 80,
+                        "color": "#003087"
+                    },
+                    {
+                        "name": "Paymob",
+                        "icon": "FaCreditCard",
+                        "proficiency": 85,
+                        "color": "#E31D2B"
+                    }
+                ]
             }
         ]
     },
@@ -311,6 +340,41 @@
                 "icon": "FaLightbulb",
                 "proficiency": 85,
                 "color": "#FCBAD3"
+            }
+        ]
+    },
+    {
+        "category": "AI Integration",
+        "skills": [
+            {
+                "name": "OpenAI GPT APIs",
+                "icon": "SiOpenai",
+                "proficiency": 90,
+                "color": "#412991"
+            },
+            {
+                "name": "Assistants API",
+                "icon": "SiOpenai",
+                "proficiency": 85,
+                "color": "#412991"
+            },
+            {
+                "name": "Vector Databases",
+                "icon": "FaDatabase",
+                "proficiency": 80,
+                "color": "#FF6B6B"
+            },
+            {
+                "name": "GraphRAG",
+                "icon": "FaProjectDiagram",
+                "proficiency": 75,
+                "color": "#000000"
+            },
+            {
+                "name": "Speech-to-Text",
+                "icon": "FaMicrophone",
+                "proficiency": 85,
+                "color": "#333333"
             }
         ]
     },

@@ -1,0 +1,265 @@
+CrewAI: Intelligent Multi-Agent AI Workforce & Productivity Suite
+My role. Lead AI Systems Architect | Senior Flutter Engineer
+
+Project description.
+
+A sophisticated platform designed to orchestrate a digital workforce of AI agents tailored for high-level productivity.
+
+Built a system where users can "hire" and manage AI employees (like the 'sayed Secretary') to automate complex professional workflows.
+Implemented a granular onboarding flow allowing users to define agent traits, including gender and specific professional roles.
+Integrated a real-time event management system that syncs AI agent tasks with user calendars and Google Meet.
+Designed a high-end, immersive interface using professional cinematic assets to represent AI personas.
+Skills and deliverables
+
+Google Cloud Platform
+Flutter
+LangChain
+Firebase
+
+-----------------------------------
+MatchBuy: AI-Powered Real Estate Assistant & Property Matchmaker
+My role. Lead Flutter Engineer | AI & Conversational UI Specialist
+
+Project description.
+
+An innovative real estate platform that utilizes Artificial Intelligence to simplify property discovery.
+
+Built a sophisticated AI Assistant interface that provides real-time, personalized property insights and answers complex market queries.
+Implemented algorithms to match buyers and sellers based on specific needs and real-time market data.
+Designed a cinematic and modern interface, ensuring a seamless transition from traditional browsing to AI-guided exploration.
+Used Clean Architecture to ensure the AI engine and listing database remain robust and easy to scale.
+Skills and deliverables
+
+LLM Prompt Engineering
+AI Chatbot
+Flutter
+GPT API
+Real Estate
+-----------------------------------
+3Elagk: Medical Ecosystem (Buyer, Seller, & Delivery Apps)
+My role. Lead Flutter Engineer | Medical Logistics Architect
+
+Project description.
+
+A comprehensive medical commerce ecosystem consisting of three interconnected applications (Buyer, Merchant, and Delivery).
+
+Developed a synchronized real-time system ensuring seamless order flow from the customer to the pharmacy and finally to the delivery agent.
+Leveraged FCM and Firebase Dynamic Links for instant notifications and deep-linking across the three platforms.
+Implemented complex REST APIs to manage medical inventories, secure checkouts, and live order tracking.
+Transformed Figma designs into a pixel-perfect, highly responsive interface optimized for healthcare users.
+Skills and deliverables
+
+Flutter
+Firebase
+Firebase Cloud Firestore
+Toothpick Dental Ecosystem
+API
+
+https://xd.adobe.com/view/a60dcd99-a4cf-423c-84eb-30ffe1121fc3-f35e/grid/
+-----------------------------------
+
+Real Estate App Performance Optimization: From 30s to <1s Launch
+My role. Lead Mobile Engineer & Performance Specialist
+
+Project description.
+
+I spearheaded the performance overhaul of a high-traffic Real Estate application.
+
+The Challenge: The app suffered from a critical 30-second startup delay due to unoptimized asset loading and API calls, leading to high user churn.
+
+The Solution: I re-architected the startup sequence using parallel asynchronous loading, implemented lazy initialization, and optimized the local caching layer.
+
+The Result: Reduced launch time to under 1 second and improved overall UI responsiveness by 40%. This solution was so successful it became the basis for an open-source Flutter package I authored.
+Skills and deliverables
+
+Flutter
+Performance Optimization
+Dart
+Clean Architecture
+Page Speed Optimization
+
+https://play.google.com/store/apps/details?id=com.homes.radar&pcampaignid=web_share
+https://apps.apple.com/ae/app/ai-homes/id6744656599
+-----------------------------------
+HomesXP: AI-Driven Fintech & Virtual Real Estate Platform
+My role. Senior Flutter Engineer | Performance & Architecture Lead
+
+Project description.
+
+Performance Overhaul: Architected a solution that reduced launch time from 30s to <1s.
+
+Fintech Integration: Developed a sophisticated Mortgage Calculator and investment tracking tools.
+
+Multi-View Engine: Built a complex UI supporting 5 view modes (Map, Radar, List, Posts, and Live Statistics).
+
+AI Insights: Integrated AI-driven market analysis to help users make informed off-plan investment decisions.
+Skills and deliverables
+
+Flutter
+FinTech
+Statistics
+Real Estate
+
+https://play.google.com/store/apps/details?id=com.homesxp.homesxp&pcampaignid=web_share
+https://apps.apple.com/ae/app/homesxp/id6752358412
+-----------------------------------
+AI Feasibility: Real Estate Investment Analysis & Financial Engine
+My role. Lead Full-Stack Mobile Engineer | Fintech & Algorithms Specialist
+
+Project description.
+
+I developed a high-precision financial feasibility tool that generates complex real estate project assessments.
+
+Built a robust logic layer to calculate IRR, NPV, ROI, and Payback periods with instant feedback.
+Implemented a dynamic scenario-testing module where users can adjust costs and timelines and see real-time impact on cash-flow projections.
+Integrated UAE real-time market transaction data to provide grounded feasibility snapshots.
+Designed a structured one-view output for stakeholders (Banks, Developers, and Investors).
+Skills and deliverables
+
+Flutter
+Data Analysis
+FinTech
+Business Intelligence Software
+
+https://play.google.com/store/apps/details?id=at.ai.feasibility.world&pcampaignid=web_share
+https://apps.apple.com/ae/app/ai-feasibility/id6755543887
+-----------------------------------
+
+Aelanji: Scalable Classified Ads Marketplace (OLX Alternative)
+My role. Lead Mobile Engineer | Marketplace Solutions Architect
+
+Project description.
+
+I am currently developing Aelanji, a high-performance classifieds marketplace designed to handle large-scale user listings and real-time interactions.
+
+Building a flexible system for users to post and manage diverse categories of ads (Real Estate, Electronics, Jobs).
+Integrating advanced location-based search to help users find ads in their immediate vicinity.
+Implementing an instant messaging system for buyers and sellers to negotiate securely within the app.
+Developing a robust image/video upload and caching system to ensure smooth browsing of media-rich listings.
+Skills and deliverables
+
+App Marketplace
+Flutter
+Dart
+Clean Architecture
+
+-----------------------------------
+AI RADAR: Augmented Reality (AR) Discovery & Travel Assistant
+My role. Lead Flutter Developer | AR & Geospatial Specialist
+
+Project description.
+
+AI RADAR is a cutting-edge discovery app that redefines how users explore their surroundings.
+The Challenge: Building a seamless bridge between real-time geospatial data and an immersive Augmented Reality (AR) experience while maintaining high performance.
+The Solution: I integrated Google Places API for comprehensive location data and implemented a 3-way navigation system: Interactive Map View, List View, and an AR Camera for real-time visual discovery. I optimized data fetching to ensure fluid tracking and navigation as users move.
+Key Tech: Maps integration, AR engine, and route tracking.
+Skills and deliverables
+
+Flutter
+Dart
+Augmented Reality
+Google Maps API
+Clean Architecture
+
+https://play.google.com/store/apps/details?id=com.atworld.atradar
+https://apps.apple.com/ae/app/ai-radar/id6747173241
+-----------------------------------
+AI CARD: AR-Powered Real-Time Business Networking Platform
+My role. Lead Mobile Developer | AR & Interactive Systems Engineer
+
+Project description.
+
+AI CARD is an assistant that digitizes professional discovery using geospatial technology.
+
+Implemented a 360° Radar Scanner and an AR View to allow users to visualize nearby professionals and businesses in real time.
+Built a comprehensive business card system that supports instant profile access, contact integration, and media galleries.
+Integrated real-time GPS positioning and navigation to guide users to business locations seamlessly.
+Focused on a "discovery-first" UX, making it simple for users to connect with services and people around them instantly.
+Skills and deliverables
+
+Flutter
+Firebase
+Firebase Realtime Database
+Google Maps
+AR & VR
+
+https://play.google.com/store/apps/details?id=at.world.business.card&pcampaignid=web_share
+https://apps.apple.com/ae/app/ai-card/id6756216613
+-----------------------------------
+Sonbla Driver: Real-time Logistics & Fleet Management Solution
+My role. Lead Mobile Engineer | Logistics & Real-time Systems specialist
+
+Project description.
+
+The Sonbla Driver application is a critical component of the Sonbla ecosystem that connects merchants, drivers, and customers in real time.
+
+Implemented high-precision background location services for live order tracking and route optimization.
+Built an intuitive interface for drivers to accept, manage, and update order statuses seamlessly.
+Integrated a transparent financial dashboard for representatives to track their income and delivery history.
+Ensured flawless real-time communication between the Driver app, Merchant portal, and Customer app.
+Skills and deliverables
+
+Flutter
+Streaming Software
+Websockets
+
+https://play.google.com/store/apps/details?id=app.sonbla.driver&pcampaignid=web_share
+https://apps.apple.com/ae/app/sonbla-driver/id6743680783
+-----------------------------------
+Sonbla: Integrated E-commerce & Delivery Platform (KSA Market)
+My role. Lead Mobile Engineer | E-commerce Solutions Specialist
+
+Project description.
+
+I led the development of Sonbla, a specialized Saudi delivery platform designed for a premium shopping experience.
+
+Engineered a robust system to handle numerous stores with dynamic inventory and category management.
+Integrated secure payment gateways and a streamlined order process to ensure high conversion rates.
+Focused on "Quality & Exception Experience," ensuring fluid navigation and real-time order tracking for KSA users.
+Built a clean, maintainable codebase capable of handling high traffic during peak shopping seasons.
+Skills and deliverables
+
+Ecommerce Platform
+Flutter
+Payment Gateway Integration
+Order Tracking
+
+https://play.google.com/store/apps/details?id=app.sonbla&pcampaignid=web_share
+https://apps.apple.com/ae/app/sonbla/id6742665454
+-----------------------------------
+
+Privilege: Advanced EdTech & Study Companion for Medical Students
+My role. Lead Flutter Developer | EdTech Solutions Architect
+
+Project description.
+
+A specialized study platform tailored for the rigorous demands of medical education.
+
+Built an interactive Flashcards and Quizzes engine to enhance information retention and exam preparation.
+Implemented a robust study planner with real-time progress tracking and automated notifications to keep students on schedule.
+Designed a clean, hierarchical system for organizing complex medical notes, optimized for fast retrieval.
+Integrated Dark Mode and a distraction-free interface to ensure a comfortable, long-term studying experience.
+Skills and deliverables
+
+Software Developer
+iOS
+Educational Software
+Android
+Flutter
+
+https://play.google.com/store/apps/details?id=com.privilegeapps.privilege&pcampaignid=web_share
+-----------------------------------
+Hadayek Hof
+
+Project description.
+
+Services Application
+Skills and deliverables
+
+Software Developer
+Mobile App
+iOS
+Android
+Flutter
+
+https://appgallery.huawei.com/app/C106661249
