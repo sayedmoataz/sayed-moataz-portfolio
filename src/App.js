@@ -1,5 +1,6 @@
 import { Box, Container, CssBaseline } from "@mui/material";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { SnackbarProvider } from "notistack";
@@ -57,6 +58,7 @@ const App = () => {
 
         <Router>
           <Analytics />
+          <SpeedInsights />
           <Box>
             <Container maxWidth="xl">
               <SnackbarProvider maxSnack={3}>
