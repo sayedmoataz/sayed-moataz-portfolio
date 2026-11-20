@@ -9,7 +9,9 @@ export const site = {
   yearsExperience: 4,
   location: "Cairo, Egypt",
   email: "sayedmoataz9@gmail.com",
-  url: "https://sayed-moataz-portfolio.vercel.app",
+  // Production domain: used for canonical URLs, OG images, sitemap and RSS.
+  // Change this one line when a custom domain is added.
+  url: "https://sayed-moataz-portfolio-five.vercel.app",
   cv: {
     href: "/Sayed%20Moataz%20-%20Senior%20Mobile%20Developer.pdf",
     fileName: "Sayed Moataz - Senior Mobile Developer.pdf",
