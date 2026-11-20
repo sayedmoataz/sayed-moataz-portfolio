@@ -1,11 +1,20 @@
-# Sayed Moataz Portfolio 🚀
+# Sayed Moataz: Portfolio
 
-Personal portfolio showcasing React projects, publications, and skills.
+Personal site of Sayed Moataz, Senior Mobile Developer building secure, high-performance apps for banking, fintech, e-commerce, education and AI.
 
-## Live Demo
-[https://sayed-moataz-portfolio.vercel.app](https://sayed-moataz-portfolio.vercel.app)
+**Live:** [sayed-moataz-portfolio.vercel.app](https://sayed-moataz-portfolio.vercel.app)
 
-## Tech Stack
-- React.js
-- Lottie animations
-- Responsive design
+## Tech stack
+
+- Next.js 16 (App Router, fully static) · React 19 · TypeScript
+- Tailwind CSS v4 with CSS-variable design tokens, dark/light themes
+- Motion for animation · Vercel Analytics & Speed Insights
+
+## Development
+
+```bash
+npm install
+npm run dev     # http://localhost:3000
+npm run build
+npm run lint
+```
