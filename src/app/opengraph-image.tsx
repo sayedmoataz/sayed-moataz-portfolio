@@ -7,9 +7,9 @@ export const contentType = ogContentType;
 
 export default function Image() {
   return renderOgImage({
-    eyebrow: `${site.role} · ${site.yearsExperience}+ years`,
+    eyebrow: `${site.yearsExperience}+ years · ${site.location}`,
     title: site.headline,
     subtitle: "Banking, fintech, e-commerce, real estate, education, AI and travel.",
-    tags: ["Flutter", "Kotlin", "Swift", "OWASP"],
+    tags: ["Flutter", "Kotlin", "Swift"],
   });
 }

@@ -31,6 +31,11 @@ const fonts = Promise.all([
   readFile(path.join(fontDir, "geist-mono/GeistMono-Medium.ttf")),
 ]);
 
+// viewPhoto.png is actually a JPEG, so the data URL says so explicitly.
+const portrait = readFile(path.join(process.cwd(), "public/viewPhoto.png")).then(
+  (buf) => `data:image/jpeg;base64,${buf.toString("base64")}`,
+);
+
 /** The "SM" monogram from the header, used for favicons and touch icons. */
 export async function renderMonogram(px: number, { rounded = true } = {}) {
   const [, , mono] = await fonts;
@@ -101,7 +106,7 @@ async function renderOgLayout({
   subtitle?: string;
   tags?: string[];
 }) {
-  const [regular, semibold, mono] = await fonts;
+  const [[regular, semibold, mono], photo] = await Promise.all([fonts, portrait]);
   const titleSize = title.length > 70 ? 52 : title.length > 40 ? 60 : 72;
   const domain = new URL(site.url).host;
 
@@ -121,23 +126,19 @@ async function renderOgLayout({
         }}
       >
         {/* Brand row */}
-        <div style={{ display: "flex", alignItems: "center", gap: 18 }}>
-          <div
+        <div style={{ display: "flex", alignItems: "center", gap: 18, marginBottom: 36 }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={photo}
+            width={64}
+            height={64}
+            alt=""
             style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              width: 56,
-              height: 56,
-              borderRadius: 14,
-              background: colors.accent,
-              color: colors.accentFg,
-              fontFamily: "Geist Mono",
-              fontSize: 24,
+              borderRadius: 999,
+              objectFit: "cover",
+              border: `2px solid ${colors.accent}`,
             }}
-          >
-            SM
-          </div>
+          />
           <div style={{ display: "flex", flexDirection: "column" }}>
             <span style={{ fontSize: 26, fontWeight: 600 }}>{site.name}</span>
             <span style={{ fontSize: 20, color: colors.muted }}>{site.role}</span>
