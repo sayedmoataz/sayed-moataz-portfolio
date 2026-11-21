@@ -4,16 +4,16 @@ Guidance for Claude Code when working in this repository.
 
 @AGENTS.md
 
-## Status: rebrand in progress
+## Status: rebrand complete
 
-The site is being rebuilt from Create React App + MUI into Next.js on the `rebrand` branch; `main` still holds the old CRA site that is live on Vercel. Phases:
+The site was rebuilt from Create React App + MUI into Next.js and is live from `main`. Pushing to `main` deploys production on Vercel; other branches get login-protected preview deployments. Phases:
 
 0. Brand copy (`src/content/site.ts`), done
 1. Next.js foundation, design tokens, layout, home page, done
 2. Content migrated to typed files in `src/content/`, articles to MDX, assets deduplicated, done
 3. All pages built: `/work` (+ `/work/[slug]`), `/experience`, `/open-source`, `/writing` (+ `/writing/[slug]`), `/now`, `/uses`; home has featured work, latest writing and testimonials, done
 4. SEO (sitemap, robots, generated OG images, JSON-LD, RSS, icons), WCAG AA contrast, Lighthouse a11y 100, done
-5. Launch: switch the Vercel deployment; update `site.url` if a custom domain is used
+5. Launched: live at <https://sayed-moataz-portfolio-five.vercel.app> (merged to `main`, Nov 2026). If a custom domain is added, change `site.url` in `src/content/site.ts`.
 
 ## Commands
 
